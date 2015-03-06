@@ -1,0 +1,4482 @@
+<ProgramInfo>
+
+	<Languages>
+		<Language id="en" name="English" desc="" />
+		<Language id="sq" name="Albanian" desc="" />
+		<Language id="es" name="Spanish" desc="" />
+		<Language id="pt" name="Portuguese" desc="" />
+		<Language id="uk" name="Ukrainian" desc="" />
+		<Language id="ru" name="Russian" desc="" />
+		<Language id="ca" name="Catalan" desc="" />
+		<Language id="ar" name="Arabic" desc="" />
+		<Language id="ro" name="Romanian" desc="" />
+		<Language id="th" name="Thai" desc="" />
+		<Language id="ur" name="Urdu" desc="" />
+		<Language id="sv" name="Swedish" desc="" />
+		<Language id="et" name="Estonian" desc="" />
+		<Language id="bg" name="Bulgarian" desc="" />
+		<Language id="fr" name="French" desc="" />
+		<Language id="sr" name="Serbian" desc="" />
+		<Language id="it" name="Italian" desc="" />
+		<Language id="fs" name="Persian" desc="" />
+		<Language id="az" name="Azerbaijani" desc="" />
+		<Language id="bs" name="Bosnian" desc="" />
+		<Language id="nl" name="Dutch" desc="" />
+		<Language id="el" name="Greek" desc="" />
+		<Language id="pl" name="Polish" desc="" />
+		<Language id="ja" name="Japanese" desc="" />
+		<Language id="de" name="German" desc="" />
+		<Language id="ta" name="Tamil" desc="" />
+		
+		<Language id="2" name="Hindi" desc="" />
+		<Language id="3" name="Malayalam" desc="" />
+		
+		<Language id="5" name="Kannada" desc="" />
+		<Language id="6" name="Telugu" desc="" />
+		<Language id="7" name="Marathi" desc="" />
+		<Language id="8" name="Punjabi" desc="" />
+		<Language id="9" name="Oriya" desc="" />
+		<Language id="11" name="Assamese" desc="" />
+		<Language id="12" name="Bengali" desc="" />
+		
+	</Languages>
+	
+	<Countries>
+		<Country id="AR" name="Argentina" lang="es" desc="" enabled="1" />
+		<Country id="AL" name="Albania" lang="sq" desc="" enabled="1" />
+		<Country id="BR" name="Brazil" lang="pt" desc="" enabled="1" />
+		<Country id="ES" name="Spain" lang="es" desc="" enabled="1" />
+		<Country id="IN" name="India" lang="2" desc="" enabled="1" />
+		<Country id="GB" name="UK" lang="en" desc="" enabled="1" />
+		<Country id="US" name="USA" lang="en" desc="" enabled="1" />
+		<Country id="FR" name="France" lang="fr" desc="" enabled="1" />
+		<Country id="IT" name="Italy" lang="it" desc="" enabled="1" />
+		<Country id="RU" name="Russia" lang="ru" desc="" enabled="1" />
+		<Country id="QA" name="Qatar" lang="ar" desc="" enabled="1" />
+		<Country id="DE" name="Germany" lang="de" desc="" enabled="1" />
+		<Country id="RO" name="Romania" lang="ro" desc="" enabled="1" />
+		<Country id="PK" name="Pakistan" lang="ur" desc="" enabled="1" />
+		<Country id="BG" name="Bulgaria" lang="bg" desc="" enabled="1" />
+		<Country id="NL" name="Netherlands" lang="nl" desc="" enabled="1" />
+		<Country id="AE" name="UAE" lang="ar" desc="" enabled="1" />
+		<Country id="PL" name="Poland" lang="pl" desc="" enabled="1" />
+		<Country id="JP" name="Japan" lang="ja" desc="" enabled="1" />
+		<Country id="PT" name="Portugal" lang="pt"  desc="" enabled="1" />
+		<Country id="100" name="xAdult" lang="en" desc="" enabled="1" />
+		<Country id="101" name="Other" lang="en" desc="" enabled="1" />
+	</Countries>
+
+	<LiveTv>
+
+		<Country id="AL">
+			<Language id="sq">
+
+
+				<Channel id="digicableshqip" name="DigiCable Shqip" desc="" lid="sq"
+					cid="AL">
+					<Stream type="1" embedd="1"
+						player="http://tivu.al/tivunew.swf"
+						link="streamer=rtmp://159.253.133.44/vitrinat/tv1/"
+						url="http://tivu.al/" file="file=tv1" />
+				</Channel>
+				
+				<Channel id="rtv21al" name="RTV 21" desc="" lid="sq" cid="AL" enabled="0">
+					<Stream type="1" embedd="1"
+						player="http://www.streamiton.tv/player/player.swf" 
+						link="streamer=rtmp://213.163.76.82:1935/live/_definst_"
+						url="http://www.limev.com/" file="file=bior" />
+				</Channel>
+
+				<Channel id="vizionplusal" name="Vizion Plus" desc="" lid="sq"
+					cid="AL">
+					<Stream type="1" embedd="1" player="http://tivu.al/tivunew.swf"
+						link="streamer=rtmp://159.253.133.44/vitrinat/tv2" url="http://tivu.al/"
+						file="file=tv2" />
+				</Channel>
+
+				<Channel id="news24" name="News 24" desc="" lid="sq" cid="AL">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://69.65.38.54/live/"
+						url="http://player.longtailvideo.com/" file="file=news24.flv" />
+				</Channel>
+
+				<Channel id="rtvoranews" name="RTV ORA News" desc="" lid="sq"
+					cid="AL">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://209.212.145.164/live"
+						url="http://www.ora-news.com/v2/nokia/index.html" file="file=livestream1" />
+
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://209.212.145.164/live"
+						url="http://wwitv.com/" file="file=livestream1" />
+				</Channel>
+
+				<Channel id="alsatal" name="Alsat" desc="" lid="sq" cid="AL">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://95.110.242.231/oflaDemo/"
+						url="http://shqiplive.info/tv-shqip-live" file="file=liveTVstream" />
+				</Channel>
+
+				<Channel id="topchannel" name="Top Channel" desc="" lid="sq"
+					cid="AL" enabled="0">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://209.212.145.164/live"
+						url="http://shqiplive.info/tv-shqip-live" file="file=topich" />
+
+					<Stream type="1" embedd="1" player="http://tivu.al/tivunew.swf"
+						link="streamer=rtmp://159.253.133.44/vitrinat/tv3" url="http://tivu.al/"
+						file="file=tv3" />
+
+				</Channel>
+
+				<Channel id="supersonical" name="Super Sonic" desc="" lid="sq"
+					cid="AL">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://64.95.41.12:1935/228"
+						url="http://super-sonic.tv/tv.html" file="file=stv_online" />
+				</Channel>
+
+				<Channel id="syrivision" name="Syri Vision" desc="" lid="sq"
+					cid="AL">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://82.114.87.114/live/"
+						url="http://www.syri-vision.tv/tv/live.html" file="file=syri" />
+				</Channel>
+
+
+				<Channel id="rrokum" name="RROKUM" desc="" lid="sq" cid="AL">
+					<Stream type="1" embedd="0" player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://82.114.65.202/live" url="http://www.rrokum.tv/"
+						file="file=rrokumtv.flv" />
+				</Channel>
+
+				<Channel id="abcalbania" name="ABC News" desc="" lid="sq"
+					cid="AL">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=abcalbania" extra="type=livestream" />
+				</Channel>
+
+			</Language>
+		</Country>
+
+		<Country id="AR">
+
+			<Language id="es">
+
+				<Channel id="canal79mdp" name=" Canal 79-MDP" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://208.85.243.101/canal79mdp"
+						url="http://www.canal79tv.com.ar/" 
+						file="file=canal79mdp.flv" />
+				</Channel>
+				
+				<Channel id="canal79rosario" name=" Canal 79-Rosario" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://74.115.208.44/cn79rosario"
+						url="http://www.canal79tv.com.ar/" 
+						file="file=cn79rosario.flv" />
+				</Channel>
+
+				<Channel id="canal7" name="Canal 7" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://wwitv.com/player/player15.swf"
+						link="streamer=rtmp://canal7vivoflash.telecomdatacenter.com.ar/live"
+						url="http://www.tvpublica.com.ar" file="file=livestream" />
+				</Channel>
+
+				<Channel id="solidariatv" name="Solidaria TV" desc="" lid="es"
+					cid="AR">
+					<Stream type="1" embedd="0"
+						player="http://wwitv.com/player/player15.swf" link="streamer=rtmpt://flash.todostreaming.es:1945/live"
+						url="http://wwitv.com/" file="file=mystream.flv" />
+				</Channel>
+
+				<Channel id="telesur" name="TeleSUR" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="0"
+						player="http://embeddedplayer.visionip.tv/data/swf/player_5_3.swf"
+						link="streamer=rtmp://telesur.fms6.visionip.tv/live" url="http://embeddedplayer.visionip.tv/"
+						file="file=b2b-telesur-live-25f-4x3_3" />
+				</Channel>
+
+				<Channel id="c5n" name="C5N" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://static-cdn1.ustream.tv/swf/live/viewer.swf" url="http://www.ustream.tv/"
+						file="cid=199131" />
+				</Channel>
+
+				<Channel id="c10cordoba" name="Canal 10 Cordoba" desc=""
+					lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://static-cdn1.ustream.tv/swf/live/viewer.swf" url="http://www.ustream.tv/"
+						file="cid=8499873" />
+				</Channel>
+
+				<Channel id="c11parana" name="Canal 11 Parana" desc="" lid="es"
+					cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://static-cdn1.ustream.tv/swf/live/viewer.swf" url="http://www.ustream.tv/"
+						file="cid=8957585" />
+				</Channel>
+
+				<Channel id="cn23" name="CN23" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://static-cdn1.ustream.tv/swf/live/viewer.swf" url="http://www.ustream.tv/"
+						file="cid=9859880" />
+				</Channel>
+
+				<Channel id="notieexpress" name="Notie Express" desc="" lid="es"
+					cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://static-cdn1.ustream.tv/swf/live/viewer.swf" url="http://www.ustream.tv/"
+						file="cid=1743850" />
+				</Channel>
+
+				<Channel id="canal5" name="Canal 5" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://static-cdn1.ustream.tv/swf/live/viewer.swf" url="http://www.ustream.tv/"
+						file="cid=199131" />
+				</Channel>
+
+				<Channel id="canal9" name="Canal 9" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=canal9salta" extra="type=livestream" />
+				</Channel>
+
+				<Channel id="canal4" name="Canal 4" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="0"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r4f8e37fc7d74161ee3e109256623ddbacbc293b9.swf"
+						url="www.justin.tv" file="channel=canal4jujuy5" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="canal6" name="Canal 6" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="0"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r4f8e37fc7d74161ee3e109256623ddbacbc293b9.swf"
+						url="www.justin.tv" file="channel=canal6misiones" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="canal7mendoza" name="Canal 7 Mendoza" desc=""
+					lid="es" cid="AR">
+					<Stream type="1" embedd="0"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r4f8e37fc7d74161ee3e109256623ddbacbc293b9.swf"
+						url="www.justin.tv" file="channel=canal7c" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="tn24hs" name="TN 24Hs" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://tn.com.ar/sites/all/themes/dozer/swf/cplayer/player.swf"
+						link="streamer=rtmp://stream.tn.com.ar/live" url="http://tn.com.ar/envivo/24hs"
+						file="file=tnhd1"	/>
+					
+				</Channel>
+				
+
+				<Channel id="eltrece" name="El Trece" desc="" lid="es" cid="AR">
+					<Stream type="1" embedd="1"
+						player="http://iblups.com/player_iblupstv.swf" url="http://iblups.com/"
+						file="stream=6124" />
+				</Channel>
+
+			</Language>
+
+		</Country>
+
+		<Country id="BR">
+		
+		<Language id="en">
+		
+			<Channel id="axnbrazil" name="AXN" desc="" lid="en"	cid="BR" enabled="false">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://31.193.12.66/histream/"
+						url="http://www.histream.tv/embedTele.php?file=televisaaxn" file="file=televisaaxn" />
+				</Channel>
+				
+				<Channel id="hbo2br" name="HBO 2" desc=""	lid="en" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.serv-vto.com/"
+						link="streamer=rtmp://streamer.istreamlive.net/35_137/" 
+						file="file=hbo2" />
+				</Channel>
+				
+				<Channel id="maxprimebr" name="MAX Prime" desc=""	lid="en" cid="BR" enabled="false">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						url="http://www.cdnbr.biz/mastertv/"
+						file="file=master26" 
+						link="streamer=rtmp://174.37.45.139:1935/liverepeater/" />
+				</Channel>
+				
+				<Channel id="hboplusbr" name="HBO Plus" desc=""	lid="en" cid="BR" enabled="false">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://tv-msn.com/"
+						file="file=hboplus" link="streamer=rtmp://streamer.istreamlive.net/133_182/" />
+				</Channel>
+				
+				<Channel id="tcaction" name="TC Action" desc=""	lid="en" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						url="http://www.cdnbr.biz/mastertv/Telecine Action.html"
+						file="file=master17" 
+						link="streamer=rtmp://174.37.45.141:1935/liverepeater/" />
+				</Channel>
+				
+				<Channel id="tcpremium" name="TC Premium" desc=""	lid="en" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						url="http://www.cdnbr.biz/mastertv/"
+						file="file=master19" 
+						link="streamer=rtmp://174.37.45.139:1935/liverepeater/" />
+				</Channel>
+				
+				<Channel id="tctouch" name="TC Touch" desc=""	lid="en" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://tv-msn.com/light.html/"
+						file="file=touch" 
+						link="streamer=rtmp://streamer.istreamlive.net/133_182/" />
+				</Channel>
+		
+		</Language>
+
+			<Language id="pt">
+			
+				<Channel id="tvrecord" name="TV Record" desc="" lid="pt"
+					cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://188.138.24.151:1936/ricpr"
+						url="http://player.longtailvideo.com/" file="file=ric.sdp" />
+				</Channel>
+
+				<Channel id="disneyjuniorbrazil" name="Disney Junior" desc=""
+					lid="pt" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://tv-msn.com/animax.html"
+						file="file=animax" link="streamer=rtmp://streamer.istreamlive.net/133_182/" />
+				</Channel>
+				
+				<Channel id="maxhdbrazil" name="Max HD" desc=""
+					lid="pt" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://tv-msn.com/maxhd.html"
+						file="file=maxhd" link="streamer=rtmp://streamer.istreamlive.net/133_182/" />
+				</Channel>
+
+
+				<Channel id="hbofamilybrazil" name="HBO Family" desc="" lid="pt"
+					cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://tv-msn.com/hbofamily.html"
+						file="file=hbofamily" link="streamer=rtmp://streamer.istreamlive.net/133_182/" />
+				</Channel>
+
+				<Channel id="hbobrazil" name="HBO" desc="" lid="pt" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://174.37.45.141:1935/liverepeater/"
+						url="http://www.cdnbr.biz/" file="file=master10" />
+				</Channel>
+
+				<Channel id="historybrazil" name="History Channel" desc=""
+					lid="pt" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://tv-msn.com/history.html"
+						file="file=history" link="streamer=rtmp://streamer.istreamlive.net/133_182/" />
+				</Channel>
+
+				<Channel id="sonybrazil" name="Sony International" desc="" lid="pt" cid="BR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://tv-msn.com/sony.html"
+						file="file=sony" link="streamer=rtmp://streamer.istreamlive.net/133_182/" />
+				</Channel>
+
+				<Channel id="boomerang" name="Boomerang" desc="" lid="pt"
+					cid="BR">
+					<Stream type="1" embedd="0"
+						player="http://www.tvgloboonline.net/protegido.swf" link="streamer=rtmp://176.31.235.145/aovivo"
+						url="http://www.tvgloboonline.net/" file="file=boomerang.flv" />
+				</Channel>
+
+				<Channel id="espnbrazil" name="ESPN" desc="" lid="pt" cid="BR" enabled="false">
+					<Stream type="1" embedd="1"
+						player="http://www.xatcomtvonline.net/swf/player.swf" 
+						link="streamer=rtmp://50.7.241.26/liverepeater3/"
+						url="http://www.xatcomtvonline.net/" file="file=aka6.flv" />
+				</Channel>
+
+				<Channel id="viamorena" name="Via morena" desc="" lid="pt"
+					cid="BR">
+					<Stream type="1" embedd="0"
+						player="http://www.viamorena.com/player.swf"
+						link="streamer=rtmp://nsp0813vimna35.nethorizontes.com.br/nsp0813vimna35"
+						url="http://www.viamorena.com/" file="file=viamorena" />
+				</Channel>
+
+				<Channel id="aperiptv" name="Aperip TV" desc="" lid="pt" cid="BR" enabled="false">
+					<Stream type="1" embedd="0"
+						player="http://www.tv-tube.tv/players/jwflashplayer/player-5.8-licensed.swf"
+						url="http://www.tv-tube.tv/"
+						file="playlistfile=http://www.tv-tube.tv/playlist/jwp/3259?h=ae9dd05b130f2099df8c310ecf5811e1" />
+				</Channel>
+
+				<Channel id="mtvbrasil" name="MTV" desc="" lid="pt" cid="BR">
+					<Stream type="1" embedd="0"
+						player="http://www.watchfomny.com/Video/Brazil/MTV-Brazil/player2.swf"
+						link="streamer=rtmp://ev.mm.uol.com.br/liverepeater/" url="http://www.watchfomny.com/"
+						file="file=mtvcast_flash.sdp" />
+					<Stream type="1" embedd="0"
+						player="http://mtv.uol.com.br/videos/player/swf/mtvPlayerAoVivo1309.swf" />
+					<Stream type="1" embedd="0"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=mtv_brasil" extra="type=livestream" />
+				</Channel>
+
+				<Channel id="tvtokiobr" name="TV Tokio BR" desc="" lid="pt" cid="BR" enabled="false">
+					<Stream type="1" embedd="0"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=tokiobr" extra="type=livestream" />
+				</Channel>
+
+				<Channel id="tvcidadeverde" name="TV Cidade Verde" desc="" lid="pt" cid="BR" enabled="false">
+					<Stream type="1" embedd="0"
+						player="http://www.freeintertv.com/modules/View/mediaplayer/player.swf"
+						link="streamer=rtmp://67.228.212.5/ponto61" url="http://www.freeintertv.com/"
+						file="file=cidadeverde" extra="type=flv" />
+				</Channel>
+
+				<Channel id="universeptv" name="Universp TV" desc="" lid="pt" cid="BR" enabled="false">
+					<Stream type="1" embedd="0"
+						player="http://www.freeintertv.com/modules/View/mediaplayer/player.swf"
+						link="streamer=rtmp://200.136.27.12/live" url="http://www.freeintertv.com/"
+						file="file=univesptv" extra="type=flv" />
+				</Channel>
+
+			</Language>
+		</Country>
+
+		<Country id="BG">
+
+			<Language id="bg">
+
+
+				<Channel id="ringbg" name="Ring BG" desc="" lid="bg" cid="BG">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://94.155.44.74:80/sport"
+						url="http://tv-sv.blogspot.com/2010/09/ring-bg.html" file="file=sportlive" />
+				</Channel>
+
+				<Channel id="btvbulgaria" name="BTV" desc="" lid="bg" cid="BG" enabled="false"> 
+				<Stream type="1" embedd="0"
+					player="http://player.longtailvideo.com/player5.7.swf" 
+					link="streamer=rtmp://94.155.44.75:1935/ios/" url="http://www.btv.bg/live/online" 
+					file="file=live"/> 
+				</Channel>
+
+				<Channel id="bntworld" name="BNT World" desc="" lid="bg"
+					cid="BG">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://193.43.26.22/live/"
+						url="http://tv.bnt.bg/bntworld/" file="file=livestream1" />
+				</Channel>
+
+				<Channel id="alphabg" name="Alpha" desc="" lid="bg" cid="BG">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://ataka.tv/live"
+						url="http://tv-sv.blogspot.com/2010/04/alfa-tv.html" file="file=live" />
+				</Channel>
+
+
+				<Channel id="bgtvbg" name="BGTV" desc="" lid="bg" cid="BG">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://95.87.193.146:1935/bgtv/"
+						url="http://www.bgtv-tv.com/" file="file=livestream" />
+				</Channel>
+
+				<Channel id="gordimybg" name="Gordimy" desc="" lid="bg" cid="BG">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://95.87.193.146/gordimy/"
+						url="http://www.gordimy-tv.com/" file="file=livestream" />
+				</Channel>
+
+			</Language>
+
+		</Country>
+
+		<Country id="FR">
+
+			<Language id="fr">
+
+				<Channel id="euronewsfrench" name="Euro News" desc="" lid="fr"
+					cid="FR">
+					<!-- <Stream type="1" embedd="1"
+						player="http://fr.euronews.net/media/player_live_1_12.swf"
+						link="streamer=rtmp://fr-par-1.stream-relay.hexaglobe.net:1935/rtpeuronewslive"
+						url="http://fr.euronews.net/infos/en-direct/"
+						file="file=fr_video750_flash_all.sdp" />
+						 -->
+						
+					<Stream type="1" embedd="0"
+						player="http://fr.euronews.net/media/player_live_1_12.swf" url="http://fr.euronews.net/infos/en-direct/"
+						file="fluff=2bb43a7ac4d0df618338ee7a5b05ce99" extra="autoplay=true&amp;lng=fr" />
+				</Channel>
+				
+				<Channel id="Ttvpiendirect" name="TVPI En Direct" desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://str-flv.oc3n.net/live/tvpi"
+						url="http://www.tvpi.fr/tvpi-en-direct/"
+						file="file=tvpi" />
+				</Channel>
+				
+				<Channel id="tv7bordeaux" name="TV7 Bordeaux" desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://88.191.94.248/livtv7vo"
+						url="http://www.tv7.com/live/"
+						file="file=mystream700.sdp" />
+				</Channel>
+
+				<Channel id="itelefr" name="I Tele" desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp59069.live.edgefcs.net/live/Flash-Itele-800@8998/"
+						url="http://www.itele.fr/direct/" file="file=Flash-Itele-800@8998" />
+				</Channel>
+				
+				<Channel id="bfmtvfr" name="BFM TV" desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://vipwowza.yacast.net:1935/bfmtv_live"
+						url="http://www.bfmtv.com/direct/" 
+						file="file=bfmtv.stream" />
+				</Channel>
+				
+				<Channel id="canal+fr" name="Canal+ " desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp59069.live.edgefcs.net:1935/live?ovpfv=1.1/"
+						url="http://www.wat.tv/swflive" 
+						file="file=Flash-Occultation-80@9004" />
+				</Channel>
+
+
+				<Channel id="tf1" name="TF1 HD" desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z010107.stream" />
+				</Channel>
+
+				<Channel id="m6" name="M6 HD" desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z010106.stream" />
+				</Channel>
+
+				<Channel id="france2" name="France 2 HD" desc="" lid="fr" cid="FR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z010105.stream" />
+				</Channel>
+
+			</Language>
+
+			<Language id="en">
+
+				<Channel id="clubbingtv" name="Clubbing TV" desc="" lid="en"	cid="FR">
+					<Stream type="0"
+						link="rtsp://217.146.95.166:554/playlist/ch21yqcif.3gp" 
+						fullscreen="0"/>
+				</Channel>
+
+				<Channel id="fashintv" name="Fashion TV" desc="" lid="en"
+					cid="FR">
+					<Stream type="0"
+						link="rtsp://217.146.95.166:554/playlist/ch27yqcif.3gp" />
+				</Channel>
+
+				<Channel id="france24english" name="France 24" desc="" lid="en"
+					cid="FR">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://stream2.france24.yacast.net:1935/france24_live/en"
+						url="http://www.france24.com/" file="file=f24_liveen.flv" />
+				</Channel>
+
+			</Language>
+
+		</Country>
+		
+		<Country id="DE">
+		
+			<Language id="de">
+
+
+				<Channel id="euronewsde" name="Euro News" desc="" lid="de"
+					cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://de.euronews.net/media/player_live_1_12.swf" url="http://de.euronews.net/nachrichten/livestream/"
+						file="fluff=4d8b2019a04df41acaf83b5101d64e5e" extra="autoplay=true&amp;lng=de" />
+					<Stream type="1" embedd="1"
+						player="http://beta.cdn.livestation.com/player/5.7/player.swf"
+						link="streamer=rtmp://media7.lsops.net/live" url="http://www.livestation.com"
+						file="file=euronews_de_medium.sdp" />
+				</Channel>
+
+				<Channel id="ojomgermany" name="Ojom" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://streaming002.htz.broadcast.tneg.de:80/jamba"
+						url="http://www.ojom.tv/" file="file=jamba1" />
+				</Channel>
+
+				<Channel id="dafgermany" name="DAF" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://fms.daf.tmt.de:1935/live/"
+						url="http://frameset.anleger-fernsehen.de/live/dafneu/fplayerdaf_neu_popup.html"
+						file="file=dafstream100" />
+				</Channel>
+
+				<Channel id="centertvaachen" name="CenterTV/Aachen" desc=""
+					lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://x3799centec12001.f.l.f.lb.core-cdn.net/12001centertvkoeln/"
+						url="http://aachen.center.tv/" file="file=live/3799centertvaachen/live_de_500" />
+				</Channel>
+
+				<Channel id="centertv2" name="CenterTV" desc="" lid="de"
+					cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://x3282azmedc12001.f.l.f.lb.core-cdn.net/12001centertvkoeln"
+						url="http://koeln.center.tv/" file="file=live/3282azmedia/live_de_500" />
+				</Channel>
+
+				<Channel id="deluxmusic" name="Delux Music" desc="" lid="de"
+					cid="DE">
+					<Stream type="1" embedd="0"
+						player="http://static.staging.deluxemusic.tv.dl1.ipercast.net/theme/deluxemusic.tv/flash/player.swf"
+						link="netstreambasepath=http://deluxemusic.tv.staging.ipercast.net/"
+						url="http://deluxemusic.tv"
+						file="file=http://deluxemusic.tv.staging.ipercast.net/content/getJWVodXml/player_version/4/use_thumbnail/0/content_id/14/count/0/mediafile_id/12"
+						extra="ContentId=14" />
+				</Channel>
+
+				<Channel id="sat3" name="Sat 3" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf " link="streamer=rtmp://rtmp://cp108475.live.edgefcs.net/live/"
+						url="http://www.wilmaa.com/" file="playpath==3sat_1_800@45493" />
+				</Channel>
+
+				<Channel id="123tv" name="1-2-3 TV" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="0"
+						player="http://www.newtvworld.com/flashplayer/AkamaiFlashPlayer.swf"
+						link="src=rtmp://cp83240.live.edgefcs.net/live/123TV_Live_Flash@14882"
+						url="http://www.newtvworld.com/" />
+				</Channel>
+
+				<Channel id="frankenfernsehen" name="Franken Fernsehen"
+					desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="0"
+						player="http://www.frankenfernsehen.tv/Layout/4/player-licensed5.1.swf"
+						link="streamer=rtmp://flash1.stream24.net:80/frankentv" url="http://www.frankenfernsehen.tv/"
+						file="file=live.flv" />
+				</Channel>
+
+				<Channel id="astrotv" name="Astro TV" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="0"
+						player="http://www.astrotv.de/astrotv/cms/export/system/modules/com.questico.commoncms.video/resources/player-licensed-5.2.swf"
+						link="streamer=rtmp://streaming001.broadcast.tneg.de/astrotvlive/"
+						url="http://www.astrotv.de/" file="file=astrotv1.flv" />
+				</Channel>
+
+				<Channel id="tagesschau" name="tagesschau" desc="" lid="de"
+					cid="DE">
+					<Stream type="1" embedd="0"
+						player="http://www.onlinesat-tv.com/channel/player.swf" link="streamer=rtmpt://cp128569.live.edgefcs.net/live/"
+						url="http://www.onlinesat-tv.com/" file="file=ts-live1-webm-flv@63323"
+						extra="type=flv" />
+				</Channel>
+
+				<Channel id="cptv" name="CP TV" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=channelpartner_tv24"
+						extra="type=livestream" />
+				</Channel>
+
+				<Channel id="dgftb" name="DGF TV" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://www.dgf-tv.de/shared/swf/player.swf" url="http://www.dgf-tv.de/"
+						file="file=/shared/playlist.xml" />
+				</Channel>
+
+				<Channel id="sixx" name="Sixx HD" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010104.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010104.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010104.stream" />
+				</Channel>
+
+				<Channel id="sat1" name="Sat 1" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010101.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010101.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010101.stream" />
+				</Channel>
+
+				<Channel id="rtl" name="RTL" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z030101.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030101.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z030101.stream" />
+				</Channel>
+
+				<Channel id="rt2" name="RTL 2" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z030104.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030104.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z030104.stream" />
+				</Channel>
+
+				<Channel id="kabel1" name="Kabel 1 HD" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z010103.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010103.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010103.stream" />
+				</Channel>
+
+				<Channel id="n24" name="N 24 HD" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z050008.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z050008.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z050008.stream" />
+				</Channel>
+
+				<Channel id="vox" name="VOX" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z030102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z030102.stream" />
+				</Channel>
+
+				<Channel id="ntv" name="N-TV" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z040001.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z040001.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z040001.stream" />
+				</Channel>
+
+				<Channel id="zdf" name="ZDF HD" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z030401.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030401.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z030401.stream" />
+				</Channel>
+
+				<Channel id="pro7" name="PRO 7 HD" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z010102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010102.stream" />
+				</Channel>
+
+				<Channel id="sport1" name="SPORT1 HD" desc="" lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z030103.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030103.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030103.stream" />
+				</Channel>
+
+				<Channel id="prosieben" name="ProSieben HD" desc="" lid="de"
+					cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z010102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010102.stream" />
+				</Channel>
+
+				<Channel id="daserste" name="Das Erste HD" desc="" lid="de"
+					cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live" url="http://www.tvsector.com/"
+						file="file=z030402.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030402.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z030402.stream" />
+				</Channel>
+
+				<Channel id="iMusic" name="iMusic 1" desc="" lid="de" cid="DE">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch26yqcif.3gp" />
+				</Channel>
+
+				<Channel id="natgeohdde" name="National Geographic HD" desc=""
+					lid="de" cid="DE">
+					<Stream type="1" embedd="1"
+						player="http://player.streammafia.com/player.swf" url="http://www.streammafia.com/viewpage.php?page_id=139"
+						link="streamer=rtmp://176.31.236.184/streams" file="file=natgeo" />
+				</Channel>
+
+			</Language>
+
+		</Country>
+		
+		<Country id="IN">
+		
+			<Language id="en">
+				<Channel id="mtvindia" name="MTV India" desc="" lid="en" cid="IN">
+					<Stream type="0" link="rtsp://208.77.20.51:1935/dmm1/mtv" />
+					<Stream type="1" embedd="0"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.51/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=mtv" />
+				</Channel>
+
+				<Channel id="channelufx" name="Channel UFX" desc="" lid="en"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=ufx" />
+				</Channel>
+
+				<Channel id="discoveryschannel" name="Discovery Channel"
+					desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.160.220.49/live/" url="http://zengatv.com/"
+						file="file=DISCOVERYCHANNEL_HVGA.sdp" />
+				</Channel>
+
+				<Channel id="discoveryscience" name="Discovery Science"
+					desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.160.220.49/live/" url="http://zengatv.com/"
+						file="file=DISCOVERYSCIENCE_HVGA.sdp" />
+				</Channel>
+
+				<Channel id="discoveryturbo" name="Discovery Turbo" desc=""
+					lid="en" cid="IN">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.160.220.49/live/" url="http://zengatv.com/"
+						file="file=DISCOVERYTURBO_HVGA.sdp" />
+				</Channel>
+
+				<Channel id="animalplanet" name="Animal Planet" desc="" lid="en"
+					cid="IN">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.160.220.49/live/" url="http://zengatv.com/"
+						file="file=ANIMALPLANET_HVGA.sdp" />
+				</Channel>
+
+				<Channel id="ndtvgoodtimes" name="NDTV Good Times" desc=""
+					lid="en" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://bglive-a.bitgravity.com/ndtv/prohi/live/native"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/ndtv/prohi/live/native" />
+				</Channel>
+
+				<Channel id="timesnow" name="Times Now" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://live.indiatimes.com/photo/9064404.cms" link="streamer=rtmp://cp131471.live.edgefcs.net:80/live/"
+						url="http://live.indiatimes.com/" file="file=timesnowtv@60323"
+						exclude="type" />
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=timesnow1.flv" />
+				</Channel>
+
+				<Channel id="ndtvhindu" name="NDTV Hindu" desc="" lid="en"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=ndtvhindu9001.flv" />
+				</Channel>
+
+				<Channel id="cnbctv18" name="CNBC TV18" desc="" lid="en" cid="IN" enabled="0">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40tv18150.sdp" />
+				</Channel>
+
+				<Channel id="etnow" name="ET Now" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=etnow1.flv" />
+				</Channel>
+
+				<Channel id="fashion" name="Fashion TV" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live" url="http://zengatv.com/"
+						file="file=mywayFTV4G.sdp" />
+				</Channel>
+
+				<Channel id="homeshop18" name="Home Shop18" desc="" lid="en"
+					cid="IN" enabled="0">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40shop150.sdp" />
+				</Channel>
+
+				<Channel id="topper" name="TOPPER" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=channel19001.flv" />
+				</Channel>
+
+				<Channel id="channelv" name="Channel V" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.sakitvs.com/player2/player.swf" url="http://www.sakitvs.com/"
+						file="file=rtmp://cp133304.live.edgefcs.net/live" extra="id=channel1@62057"
+						exclude="controlbar" />
+				</Channel>
+
+				<Channel id="ndtv24x7" name="NDTV 24X7" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=ndtvenglish9001.flv" />
+					<Stream type="1" embedd="0"
+						player="http://bitcast-b.bitgravity.com/player/6/bitgravity_player_v6_1_4.swf"
+						link="streampath=rtmp://cdn3.scieron.com/live/nd24tv.flv" url="http://www.bitgravity.com/"
+						file="File=http://ndtv.indostan.epac.to/ndtv/247lo/live/native"
+						extra="AutoPlay=true" />
+					<Stream type="1" embedd="0"
+						player="http://www.ndtv.com/common/videos/flash/player/new-wrapper/VideoPlayer.swf"
+						file="videoid=LIVE_BG24x7" />
+				</Channel>
+
+				<Channel id="ndtvprofit" name="NDTV Profit" desc="" lid="en"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.ndtv.com/news/flash/live/player.swf" extra="videoid=LIVE_BGPROFIT" />
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=ndtvprofit9001.flv" />
+				</Channel>
+
+				<Channel id="cnnibn" name="CNN IBN" desc="" lid="en" cid="IN" enabled="0">
+					<Stream type="1" embedd="0" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40ibn150.sdp" />
+				</Channel>
+
+				<Channel id="9xnews" name="News X" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=newsx1.flv" />
+				</Channel>
+				
+				<Channel id="ddnewsen" name="DD News" desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://flashmedia.nic.in:80/live"
+						url="http://webcast.gov.in/live/" file="file=dd1" />
+				</Channel>
+
+
+			</Language>
+			<Language id="2">
+
+				<Channel id="indiatv" name="India TV" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=indiatv1.flv" />
+				</Channel>
+
+				<Channel id="ndtvindia" name="NDTV India" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=ndtvhindi9002.flv" />
+				</Channel>
+
+				<Channel id="sonyentertainmentindia" name="Sony Entertainment"
+					desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=sonytv" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/sonytv" />
+				</Channel>
+
+				<Channel id="sonymaxindia" name="Sony Max" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.51/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=setmax" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/setmax" />
+				</Channel>
+
+				<Channel id="35mm" name="35 MM" desc="" lid="en" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40sristi150.sdp" />
+				</Channel>
+
+				<Channel id="delhiaajtak" name="Delhi Aaj Tak" desc="" lid="2"
+					cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40delhi50.sdp.flv" />
+				</Channel>
+
+				<Channel id="b4umovies" name="B4U Movies" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=b4umovies" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/b4umovies" />
+				</Channel>
+
+				<Channel id="b4umusic" name="B4U Music" desc="" lid="2" cid="IN">
+					<Stream type="0"
+						link="rtsp://217.146.95.166:554/playlist/ch12zqcif.3gp" />
+				</Channel>
+
+				<Channel id="saharaone" name="Sahara One" desc="" lid="2"
+					cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40saharaone150.sdp" />
+				</Channel>
+
+				<Channel id="zeesmile" name="Zee Smile" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=zeesmile" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/zeesmile" />
+				</Channel>
+
+				<Channel id="aajtak" name="Aaj tak" desc="" lid="2" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40aajtak150.sdp" />
+				</Channel>
+
+				<Channel id="cnbcaawaaz" name="CNBC Aawaaz" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://bglive-a.bitgravity.com/web18/secure/feed01"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/web18/secure/feed01"
+						exclude="type" />
+				</Channel>
+
+				<Channel id="channelonenews" name="Channel One News" desc=""
+					lid="2" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=http://bglive-a.bitgravity.com/pnmpl/live/feed01"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/pnmpl/live/feed01"
+						exclude="type" />
+
+				</Channel>
+
+				<Channel id="news11" name="News 11" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://webmobilive.com/playerv5.swf" link="streamer=rtmp://live.wmncdn.net/news11"
+						url="http://webmobilive.com/" file="file=2d6178783c6b50503c446e3c3a7a556a" />
+				</Channel>
+
+				<Channel id="sudarshannews" name="Sudarshan News" desc=""
+					lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://sudarshantv.live.cdn.bitgravity.com/sudarshantv/live/feed01"
+						url="http://bglive-a.bitgravity.com/"
+						file="file=http://sudarshantv.live.cdn.bitgravity.com/sudarshantv/live/feed01"
+						exclude="type" />
+				</Channel>
+
+				<Channel id="divyatv" name="Divya TV" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://202.164.56.130/live" url="http://bglive-a.bitgravity.com/"
+						file="file=livestream.swf.flv" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://202.164.56.130:1935/live"
+						file="file=livestream.swf" url="http://202.164.56.130/" extra="autoPlay=true" />
+				</Channel>
+
+				<Channel id="filmy" name="Filmy" desc="" lid="2" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40filmy150.sdp" />
+				</Channel>
+
+				<Channel id="starone" name="Star One" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=starone" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/starone" />
+				</Channel>
+
+				<Channel id="ndtvimaine" name="NDTV Imagine" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=ndtvimagine" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/ndtvimagine" />
+				</Channel>
+
+				<Channel id="starplus" name="Star Plus" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=starplus" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/starplus" />
+				</Channel>
+
+				<Channel id="zee" name="Zee TV" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=zeetv.flv" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/zeetv" />
+				</Channel>
+
+				<Channel id="desi4cinema" name="Desi 4U Cinema" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal/"
+						url="http://www.watchsuntv.com/" file="file=dcinema.flv" />
+				</Channel>
+
+
+				<Channel id="desi4umovies" name="Desi 4U Movies" desc=""
+					lid="2" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal/"
+						url="http://www.watchsuntv.com/" file="file=dmovies.flv" />
+				</Channel>
+
+				<Channel id="desi4uclassic" name="Desi 4U Classic" desc=""
+					lid="2" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal/"
+						url="http://www.watchsuntv.com/" file="file=dclassic.flv" />
+				</Channel>
+
+				<Channel id="colors" name="Colors" desc="" lid="2" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40col150.sdp" />
+				</Channel>
+
+				<Channel id="aapkacolors" name="Aapka Colors" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=apclr.flv" />
+					<Stream type="0" link="rtsp://208.77.20.52:1935/dmm1/apclr" />
+				</Channel>
+
+				<Channel id="utvmovies" name="UTV Movies" desc="" lid="2"
+					cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40mov150.sdp" />
+				</Channel>
+
+				<Channel id="utvbindass" name="UTV Bindass" desc="" lid="2"
+					cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40bin150.sdp" />
+				</Channel>
+
+
+				<Channel id="firangi" name="Firangi" desc="" lid="2" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40firangi150.sdp" />
+				</Channel>
+
+				<Channel id="e24" name="E24 TV" desc="" lid="2" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40e24150.sdp" />
+				</Channel>
+
+				<Channel id="bollywoodmovies" name="Bollywood Movies" desc=""
+					lid="2" cid="IN">
+					<Stream type="0"
+						link="rtsp://217.146.95.166:554/playlist/ch33yqcif.3gp" />
+				</Channel>
+
+				<Channel id="visionmusic" name="Vision Music" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/vision"
+						url="http://player.longtailvideo.com/" file="file=76292e755d2c5636252a3b5f745c2e38" />
+				</Channel>
+
+				<Channel id="a2znews" name="A2Z News" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://streamick.com/playr/streamick-player.swf" url="http://player.longtailvideo.com/"
+						file="file=http://das-live.wmncdn.net:8080/livestream/edge1/a2znews/674373563924736a7143344c7d4f4548/" />
+
+				</Channel>
+
+				<Channel id="9xmusic" name="9X Music" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="0" player="http://9xm.in/livetv/9xmPlayer.swf" />
+				</Channel>
+
+				<Channel id="indianmasala" name="Indian Masala" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://yatv.ru/files/swf/container.swf" url="http://yatv.ru/"
+						file="cid=13201" extra="layout=1full&amp;apps=translations&amp;autoplay=1" />
+				</Channel>
+
+				<Channel id="cneb" name="CNEB" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://119.82.77.212/swfs/StrobeMediaPlayback.swf" link="src=rtmp://119.82.77.212/live/CNEB_IT"
+						extra="autoPlay=true" />
+				</Channel>
+
+				<Channel id="gnnnews" name="GNN News" desc="" lid="2" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://webmobilive.com/player/liveplayer.swf" url="http://webmobilive.com/"
+						link="streamer=rtmp://live.wmncdn.net/gnn" file="video=3d573b3e6e2a292c3b76396d33"
+						extra="autoStart=true" exclude="autostart" />
+				</Channel>
+
+				<Channel id="lifeok" name="Life ok" desc="" lid="2" cid="IN">
+
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://122.160.220.49/live/"
+						url="http://zengatv.com/" file="file=STARONE_HVGA.sdp" />
+
+					<Stream type="1" embedd="0"
+						player="http://videos.startv.in/lifeok/lifeok_vdo.swf" url="http://videos.startv.in"
+						file="zid=n=899~c=279/274~s=53~d=18" extra="ap=0" />
+				</Channel>
+
+				<Channel id="dhoommusic" name="Dhoom Music" desc="" lid="2"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=dhoommusic9001" />
+				</Channel>
+
+				<Channel id="dharmtv" name="Dharm TV" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://webmobilive.com/player/player.swf" url="http://webmobilive.com/"
+						file="config=http://webmobilive.com/player/xml/configdharmtv.xml" />
+				</Channel>
+
+			</Language>
+			<Language id="3">
+
+				<Channel id="reporter" name="Reporter TV" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" file="file=reportertv.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=reportertv.stream" />
+					<Stream type="1" embedd="1" player="http://turbotv.in/player.swf"
+						link="streamer=rtmp://119.110.68.190/live" url="http://turbotv.in/"
+						file="file=asia5.stream" />
+				</Channel>
+
+				<Channel id="asianetmiddleeast" name="Asianet Middle East"
+					desc="" lid="3" cid="IN">
+					<Stream type="1" embedd="1" player="http://turbotv.in/player.swf"
+						link="streamer=rtmp://119.110.68.190/live" url="http://turbotv.in/"
+						file="file=asia1.stream" />
+				</Channel>
+
+				<Channel id="indiavisionyes" name="IndiaVision Yes" desc=""
+					lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" file="file=yesindiavision.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=yesind.stream" />
+				</Channel>
+
+				<Channel id="amrita" name="Amrita TV" desc="" lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=amrita.stream" />
+				</Channel>
+
+				<Channel id="asianetplus" name="Asianet Plus" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=aplus.stream" />
+				</Channel>
+
+				<Channel id="asianetusa" name="Asianet USA" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=ausa.stream" />
+				</Channel>
+
+				<Channel id="indiavisionnews" name="India Vision News" desc=""
+					lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" file="file=indiavision.stream" />
+					<Stream type="0"
+						link="rtsp://live.wmncdn.net/indiavision/703c4067326c275a78464778514e5273.sdp" />
+				</Channel>
+
+				<Channel id="jeevan" name="Jeevan TV" desc="" lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" file="file=jeevan.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=jeevan9001.flv" />
+					<Stream type="1" embedd="1" player="http://turbotv.in/player.swf"
+						link="streamer=rtmp://119.110.68.190/live" url="http://turbotv.in/"
+						file="file=asia4.stream" />
+					<Stream type="1" embedd="1" player="http://www.mazatv.net/player.swf"
+						link="streamer=rtmp://live.wmncdn.net/jeevantv" url="http://www.mazatv.net/"
+						file="file=asia4.stream" />
+				</Channel>
+
+				<Channel id="jaihind" name="Jai Hind TV" desc="" lid="3" cid="IN">
+					
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" 
+						link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" file="file=jaihind.stream" />
+						
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.yupptv.com"
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin"
+						file="file=jaihind2" />
+					
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/jaihind2" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/jaihind3" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/jaihind1" />
+					
+				</Channel>
+
+				<Channel id="asianetnews" name="Asianet News" desc="" lid="3" cid="IN">
+						
+						<Stream type="1" embedd="0"
+						player="http://sakitvs.com/player2/player.swf" 
+						url="http://sakitvs.com/"
+						file="file=rtmp://cp106922.live.edgefcs.net/live" 
+						extra="id=asianetnews@53812" exclude="controlbar"/>
+					
+					
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com" file="file=asianet1.flv" />
+
+					
+					<Stream type="1" embedd="0"
+						player="http://www.startv.in/flash/asianetnews_zedo.swf" />
+				</Channel>
+
+				<Channel id="kairali" name="Kairali" desc="" lid="3" cid="IN">
+				
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.yupptv.com"
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin"
+						file="file=kairali9002" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/kairali9002" />	
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/kairali9003" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/kairali9001" />
+					
+											
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" 
+						link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=kairali.stream" />
+					
+					
+				</Channel>
+
+				<Channel id="kairalipeople" name="Kairali People" desc=""	lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=kpeople.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.yupptv.com"
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin"
+						file="file=people9002" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/people9002" />	
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/people9003" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/people9001" />
+				</Channel>
+
+				<Channel id="kairaliwe" name="Kairali WE" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=kwe.stream" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/we3" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/we2" />
+					<Stream type="0" link="rtsp://cdn.m.yupptv.tv/liveorigin/we1" />
+					<Stream type="1" embedd="0"
+						player="http://www.yupptv.com/account/FlashPlayerFrame.aspx" url="http://www.yupptv.com"
+						file="ChanId=263" />
+				</Channel>
+
+				<Channel id="kerala4ucinema" name="Kerala4U Cinema" desc=""
+					lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal"
+						url="http://www.watchsuntv.com/" file="file=k4ucinema.flv" />
+					<Stream type="0" link="rtsp://208.77.20.46:1935/minnal/k4ucinema" />
+				</Channel>
+
+				<Channel id="kerala4u" name="Kerala4U TV" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal"
+						url="http://www.watchsuntv.com/" file="file=k4umovies.flv" />
+					<Stream type="0" link="rtsp://208.77.20.46:1935/minnal/k4umovies" />
+				</Channel>
+
+				<Channel id="drishyamtv" name="Drishyam TV" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.malayalaminternettv.com/mediaplayer.swf"
+						 url="http://www.malayalaminternettv.com/"
+						 exclude="controlbar" />
+				</Channel>
+
+				<Channel id="suryatv" name="Surya TV" desc="" lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" 
+						link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" 
+						file="file=surya.stream" />
+						
+					
+				</Channel>
+
+				<Channel id="ddmalayalam" name="DD Malayalam" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" file="file=ddmalayalam.stream" />
+				</Channel>
+
+				<Channel id="malayalamusa" name="Malayalam TV" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://38.96.192.183/roku/"
+						url="https://www.malayalamiptv.net/" file="file=event.stream" />
+				</Channel>
+
+				<Channel id="suryausa" name="Surya USA" desc="" lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf"
+						link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=suryausa.stream" />
+						
+				
+				</Channel>
+
+				<Channel id="asianet" name="Asianet" desc="" lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://173.193.202.80/live/"
+						url="http://digitalstreams.tv/" file="file=aind.stream" />
+				</Channel>
+
+				<Channel id="divinevision" name="Divine Vision" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf"
+						link="streamer=rtmp://cp87191.live.edgefcs.net/live/DVNLive@17758"
+						url="http://player.longtailvideo.com/" file="file=DVNLive@17758.flv" />
+				</Channel>
+
+				<Channel id="powervision" name="Power Vision" desc="" lid="3"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player.swf" link="streamer=rtmp://live.wmncdn.net/powervision"
+						url="http://player.longtailvideo.com/" file="file=powervisiontv" />
+				</Channel>
+
+				<Channel id="rajmusicmalayalam" name="Raj Music" desc=""
+					lid="3" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.yupptv.com/account/FlashPlayerFrame.aspx" url="http://www.yupptv.com"
+						file="ChanId=161" />
+				</Channel>
+
+				<Channel id="malayalamcomedychannel" name="Malayalam Comedy Channel"
+					desc="" lid="en" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=malayalamcomedy"
+						extra="type=livestream" />
+				</Channel>
+
+			</Language>
+
+
+			<Language id="ta">
+
+				<Channel id="suntv" name="Sun TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" 
+						file="file=suntv" />
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/lbstream/"
+						url="http://www.watchsuntv.com/" file="file=sun1" />
+					
+				</Channel>
+
+				<Channel id="sunnews" name="Sun News" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://dinakaran.live.cdn.bitgravity.com/dinakaran/live/feed01"
+						url="http://bglive-a.bitgravity.com/"
+						file="file=http://dinakaran.live.cdn.bitgravity.com/dinakaran/live/feed01" />
+				</Channel>
+
+				<Channel id="ssmusic" name="SS Music" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=ssmusic" />
+				</Channel>
+
+				<Channel id="ddpodhigai" name="DD Podhigai" desc="" lid="ta"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=podhigai" />
+				</Channel>
+
+				<Channel id="siripoli" name="Siripoli" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=siri" />
+				</Channel>
+
+				<Channel id="rajtv" name="Raj TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=rajnewstamil1.flv" />
+				</Channel>
+
+				<Channel id="rajmusix" name="Raj Musix" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=rajmusix" />
+				</Channel>
+
+				<Channel id="chithiram" name="Chithiram" desc="" lid="ta"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=chithiram" />
+				</Channel>
+
+				<Channel id="isaiaruvi" name="Isai Aruvi" desc="" lid="ta"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=isai" />
+				</Channel>
+
+				<Channel id="captain" name="Captain TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://bglive-a.bitgravity.com/captainmp/secure/feed01"
+						url="http://captainmedia.in/" file="File=http://bglive-a.bitgravity.com/captainmp/secure/feed01" />
+
+					<Stream type="1" embedd="1"
+						player="http://bitcast-b.bitgravity.com/player/6/bitgravity_player_v6_1_4.swf"
+						url="http://captainmedia.in/" file="File=http://bglive-a.bitgravity.com/captainmp/secure/feed01"
+						extra="AutoPlay=true" />
+
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=captain" />
+				</Channel>
+
+				<Channel id="seithikal" name="Seithikal" desc="" lid="ta"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=seithi" />
+				</Channel>
+
+				<Channel id="thendral" name="Thendral" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=thendral" />
+				</Channel>
+
+				<Channel id="kalainagar" name="Kalainagar TV" desc="" lid="ta"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=kalai" />
+				</Channel>
+
+				<Channel id="vijay" name="Vijay TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/lbstream/"
+						url="http://www.watchsuntv.com/" file="file=vj1" />
+				</Channel>
+
+				<Channel id="ktv" name="KTV" desc="" lid="ta" cid="IN">
+					
+						
+						<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" 
+						file="file=ktv" />
+						
+						<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" 
+						link="streamer=rtmpe://208.77.20.52/dmm1/"
+						url="http://www.watchsuntv.com/" file="file=ktv.flv" />
+						
+				</Channel>
+
+				<Channel id="jayaplus" name="Jaya Plus" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=jayaplus1.flv" />
+				</Channel>
+				
+				<Channel id="jayamovies" name="Jaya Movies" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=jayamovies" />
+				</Channel>
+				
+				<Channel id="jayamax" name="Jaya Max" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" 
+						file="file=jayamax" />
+				</Channel>
+
+				<Channel id="vasanth" name="Vasanth TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/vasanth"
+						url="http://player.longtailvideo.com/" file="file=3d5775714a71513a7e6d745b5e406a7e" />
+				</Channel>
+
+				<Channel id="wintv" name="Win TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=win" />
+				</Channel>
+
+
+<!-- 				<Channel id="minnaltvmusic" name="Minnal TV Music" desc=""	lid="ta" cid="IN" enabled="0"> -->
+<!-- 					<Stream type="1" embedd="1" -->
+<!-- 						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal/" -->
+<!-- 						url="http://www.watchsuntv.com/" file="file=mmusic.flv" /> -->
+<!-- 				</Channel> -->
+
+<!-- 				<Channel id="minnaltvhitshd" name="Minnal TV Hits HD" desc=""	lid="ta" cid="IN" enabled="0"> -->
+<!-- 					<Stream type="1" embedd="1" -->
+<!-- 						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal/" -->
+<!-- 						url="http://www.watchsuntv.com/" file="file=mhitshd.flv" /> -->
+<!-- 				</Channel> -->
+
+<!-- 				<Channel id="minnaltvvannathirai" name="Minnal TV Vannathirai"	desc="" lid="ta" cid="IN" enabled="0"> -->
+<!-- 					<Stream type="1" embedd="1" -->
+<!-- 						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal/" -->
+<!-- 						url="http://www.watchsuntv.com/" file="file=mvannathirai" /> -->
+<!-- 				</Channel> -->
+
+<!-- 				<Channel id="minnaltvkids" name="Minnal TV Kids" desc="" lid="ta" cid="IN" enabled="0"> -->
+<!-- 					<Stream type="1" embedd="1" -->
+<!-- 						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal/" -->
+<!-- 						url="http://www.watchsuntv.com/" file="file=mkids.flv" /> -->
+<!-- 				</Channel> -->
+
+				<Channel id="imayamtv" name="Imayam TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.52/livestream/"
+						url="http://www.watchsuntv.com/" file="file=imayam" />
+				</Channel>
+
+				<Channel id="mega24" name="Mega 24" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=mega242" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=mega241" />
+				</Channel>
+
+				<Channel id="megamusic" name="Mega Music" desc="" lid="ta"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=megamusiq2" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=megamusiq1" />
+				</Channel>
+
+				<Channel id="megatv" name="Mega TV" desc="" lid="ta" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=megatv2" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=megatv1" />
+				</Channel>
+
+			</Language>
+
+			<Language id="5">
+				<Channel id="asianetsuvarna" name="Asianet Suvarna" desc=""
+					lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" 
+						file="file=suvarna" />
+						
+				</Channel>
+				
+				<Channel id="udayatv" name="Udaya TV" desc=""
+					lid="3" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" 
+						file="file=udaya" />
+						
+				</Channel>
+
+				<Channel id="sktv" name="SK TV" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=http://bglive-a.bitgravity.com/skfe/live/feed01"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/skfe/live/feed01" />
+				</Channel>
+
+			</Language>
+
+			<Language id="6">
+
+				<Channel id="geminitv" name="Gemini TV" desc="" lid="6" cid="IN">
+<!-- 					<Stream type="1" embedd="1" -->
+<!-- 						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/" -->
+<!-- 						url="http://www.mangomobiletv.net/" file="file=geminitvlive.stream" /> -->
+						
+						<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" 
+						file="file=gemini" />
+						
+				</Channel>
+				
+				<Channel id="geminimovies" name="Gemini Movies" desc="" lid="6" cid="IN">
+						
+						<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" 
+						file="file=geminimovies" />
+						
+				</Channel>
+
+				<Channel id="geminitvusa" name="Gemini TV USA" desc="" lid="6"	cid="IN" enabled="0">
+					<Stream type="1" embedd="1"
+						player="http://www.mangomobiletv.net/usa/player_s1_0.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/"
+						url="http://www.mangomobiletv.net/" file="file=geminitv.stream" />
+				</Channel>
+
+				<Channel id="geminicomedy" name="Gemini Comedy" desc="" lid="6"	cid="IN"  enabled="0">
+					<Stream type="1" embedd="1"
+						player="http://www.mangomobiletv.net/usa/player_s1_0.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/"
+						url="http://www.mangomobiletv.net/" file="file=geminitv.stream" />
+				</Channel>
+
+				<Channel id="telugu4TV" name="Telugu 4U TV" desc="" lid="6"	cid="IN" enabled="false">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal"
+						url="http://www.watchsuntv.com/" file="file=telugu4ucinema.flv" />
+				</Channel>
+
+				<Channel id="telugu4umovies" name="Telugu 4U Movies" desc=""	lid="6" cid="IN" enabled="false">
+					<Stream type="1" embedd="1"
+						player="http://www.watchsuntv.com/play/flash/player.swf" link="streamer=rtmpe://208.77.20.46/minnal"
+						url="http://www.watchsuntv.com/" file="file=telugu4umovies.flv" />
+				</Channel>
+
+				<Channel id="maamusic" name="Maa Music" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=maamusic1" />
+				</Channel>
+
+				<Channel id="maamovies" name="Maa Movies" desc="" lid="6"	cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.mangomobiletv.net/usa/player_s1_0.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/"
+						url="http://www.mangomobiletv.net/" file="file=maamovies.stream" />
+				</Channel>
+
+				<Channel id="maatvusa" name="Maa TV USA" desc="" lid="6" cid="IN" enabled="0">
+					<Stream type="1" embedd="1"
+						player="http://www.mangomobiletv.net/usa/player_s1_0.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/"
+						url="http://www.mangomobiletv.net/" file="file=maa.stream" />
+				</Channel>
+
+				<Channel id="maatv" name="Maa TV" desc="" lid="6" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40maatv150.sdp" />
+				</Channel>
+
+				<Channel id="localtv" name="Local TV" desc="" lid="6" cid="IN" enabled="0">
+					<Stream type="1" embedd="1"
+						player="http://www.mangomobiletv.net/usa/player_s1_0.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/"
+						url="http://www.mangomobiletv.net/" file="file=localtv.stream" />
+				</Channel>
+
+				<Channel id="mahaatv" name="Mahaa TV" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=mahatv9001.flv" />
+				</Channel>
+
+				<Channel id="sakshitv" name="Sakshi TV" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=sakshi1.flv" />
+				</Channel>
+
+				<Channel id="ntv" name="N TV" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/" file="file=ntv1.flv" />
+				</Channel>
+
+				<Channel id="jagrutinews" name="Jagruti News" desc="" lid="6"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://bglive-w.bitgravity.com/zapcom/live/feed08"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-w.bitgravity.com/zapcom/live/feed08" />
+				</Channel>
+
+				<Channel id="janatanews" name="Janata News" desc="" lid="6"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://bglive-w.bitgravity.com/zapcom/live/feed02"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-w.bitgravity.com/zapcom/live/feed02" />
+				</Channel>
+
+				<Channel id="aradanatv" name="Aradana TV" desc="" lid="6"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/aradanatv"
+						url="http://www.yupptv.com/" file="file=aradanatv1.flv" />
+				</Channel>
+
+				<Channel id="etv" name="Etv Telugu" desc="" lid="6" cid="IN" enabled="0">
+				<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=etv" />
+					<Stream type="1" embedd="1"
+						player="http://www.mangomobiletv.net/usa/player_s1_0.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/"
+						url="http://www.mangomobiletv.net/" file="file=etvlive.stream" />
+				</Channel>
+
+				<Channel id="etv2" name="Etv 2" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=etv21" />
+				</Channel>
+
+				<Channel id="tv1telugu" name="TV1 Telugu" desc="" lid="6"	cid="IN"  enabled="0">
+					<Stream type="1" embedd="1"
+						player="http://www.mangomobiletv.net/usa/player_s1_0.swf" link="streamer=rtmp://65.51.243.121:1935/rtplive/"
+						url="http://www.mangomobiletv.net/" file="file=tv1.stream" />
+				</Channel>
+
+				<Channel id="abnadhrajyothi" name="ABN Andhra Jyothi" desc=""
+					lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=abn" />
+				</Channel>
+
+				<Channel id="tnews" name="T News" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://bglive-a.bitgravity.com/telangana/live/feed01"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/telangana/live/feed01" />
+				</Channel>
+
+				<Channel id="xtratv" name="Xtra TV" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin"
+						url="www.yupptv.com" file="file=channel61" />
+				</Channel>
+				
+				<Channel id="tv5telugu" name="TV 5" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=tv51" />
+				</Channel>
+				
+				<Channel id="vanithatelugu" name="Vanitha" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.m.yupptv.tv/liveorigin/"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=vanitha9001" />
+				</Channel>
+				
+				<Channel id="vissatelugu" name="Vissa" desc="" lid="6" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cdn.rtmp1.yupptv.tv/nwk"
+						url="http://www.yupptv.com/account/FlashPlayerFrame.aspx" file="file=vissa" />
+				</Channel>
+
+			</Language>
+
+			<Language id="7">
+
+				<Channel id="9xjhakaas" name="9X Jhakas" desc="" lid="7"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://9xjhakaas.in/flash/9xJplayer.swf" url="http://9xjhakaas.in/" />
+				</Channel>
+
+				<Channel id="ibnlokmat" name="IBN Lokmat" desc="" lid="7"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=http://bglive-a.bitgravity.com/web18/secure/feed03"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/web18/secure/feed03" />
+				</Channel>
+
+				<Channel id="saamtv" name="SAAM TV" desc="" lid="7" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/saam/"
+						url="http://player.longtailvideo.com" file="file=saamtv.flv" />
+				</Channel>
+
+			</Language>
+
+			<Language id="8">
+
+				<Channel id="getpunjabi" name="GET TV" desc="" lid="8" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://www.yupptv.com/account/FlashPlayerFrame.aspx" url="http://www.yupptv.com"
+						file="ChanId=309" />
+				</Channel>
+
+				<Channel id="9xtashan" name="9X Tashan" desc="" lid="8" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://www.9xtashan.in/9xtplayer.swf" url="http://www.9xtashan.in/" />
+				</Channel>
+
+				<Channel id="sadachannel" name="Sada Channel" desc="" lid="en"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://119.82.77.212/live/"
+						url="http://player.longtailvideo.com" file="file=sada.flv" />
+				</Channel>
+
+				<Channel id="sikhchannel" name="Sikh Channel" desc="" lid="8"
+					cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://sikhchannel.tv/media/LiveStreaming.swf" url="http://sikhchannel.tv/" />
+				</Channel>
+
+			</Language>
+
+			<Language id="9">
+
+				<Channel id="mbctv" name="MBC TV" desc="" lid="9" cid="IN">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/mbc"
+						url="http://player.longtailvideo.com" file="file=7636612a6459204348436123204b2767" />
+				</Channel>
+			</Language>
+
+			<Language id="ur">
+
+				<Channel id="ddurdu" name="DD Urdu" desc="" lid="10" cid="IN" enabled="0">
+					<Stream type="1" embedd="1" player="http://zengatv.com/player.swf"
+						link="streamer=rtmp://122.248.252.56/live/" url="http://zengatv.com/"
+						file="file=nokia40dd_urdu150.sdp" />
+				</Channel>
+
+			</Language>
+
+			<Language id="11">
+
+				<Channel id="newslive" name="News Live" desc="" lid="11"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/newslive"
+						url="http://player.longtailvideo.com" file="file=newslivetv" />
+				</Channel>
+
+				<Channel id="ra*ng" name="Rang TV" desc="" lid="11" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/rangtv"
+						url="http://player.longtailvideo.com" file="file=202b3f6e484d2e2f40694363712e597b" />
+				</Channel>
+
+				<Channel id="dy365tv" name="DY 365 TV" desc="" lid="11" cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://live.wmncdn.net/dy365/"
+						url="http://player.longtailvideo.com" file="file=dy365tv.flv" />
+				</Channel>
+
+			</Language>
+
+			<Language id="12">
+				<Channel id="taramuzic" name="Tara Muzic" desc="" lid="12"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=http://bglive-a.bitgravity.com/tara/live/native1"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/tara/live/native1" />
+				</Channel>
+
+				<Channel id="tvsouthasia" name="TV South Asia" desc="" lid="12"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=http://bglive-a.bitgravity.com/tara/live/native2"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/tara/live/native2" />
+				</Channel>
+
+				<Channel id="taranews" name="Tara News" desc="" lid="12"
+					cid="IN">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=http://bglive-a.bitgravity.com/tara/live/native3"
+						url="http://bglive-a.bitgravity.com/" file="file=http://bglive-a.bitgravity.com/tara/live/native3" />
+				</Channel>
+
+			</Language>
+
+		</Country>
+
+		<Country id="GB">
+			<Language id="en">
+			
+			
+				<Channel id="qvcuk " name="QVC" desc="" lid="en"	cid="GB">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://cp40617.live.edgefcs.net/live" 
+          url="http://www.qvc.com/" 
+          file="file=qvc-lfs@912"/>
+				</Channel>
+			
+			<Channel id="motorstvuk" name="Motors TV" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisamotorstv" file="file=televisamotorstv" />
+			</Channel>
+			
+			<Channel id="jewellerymaker " name="Jewellery Maker" desc="" lid="en"	cid="GB">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://87.117.200.35/jewellerychannel" 
+          url="http://www.jewellerymaker.com/popups/TV.aspx?v=2" 
+          file="file=livestream_source"/>
+				</Channel>
+				
+				<Channel id="idealworld" name="Ideal World" desc="" lid="en"	cid="GB">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://live.simplestreamcdn.net/idealworld/chan=idealworld" 
+          url="http://www.idealworld.tv/WatchTvLive.aspx" file="file=idealworld2"/>
+				</Channel>
+				
+				<Channel id="idealextra" name="Ideal Extra" desc="" lid="en"	cid="GB">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://live.simplestreamcdn.net/idealworld/chan=idealextra" 
+          url="http://www.idealworld.tv/WatchTvLive.aspx" file="file=idealextra2"/>
+				</Channel>
+				
+			
+			<Channel id="createandcraft" name="Create and Craft" desc="" lid="en"	cid="GB">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://live.simplestreamcdn.net/idealworld/chan=createandcraft" 
+          url="http://www.idealworld.tv/WatchTvLive.aspx" file="file=createandcraft2"/>
+				</Channel>
+						
+				<Channel id="cnbceu" name="CNBC" desc="" lid="en"	cid="GB" enabled="0">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://c.cdn.msnbclive.eu/edge/" 
+          url="http://msnbclive.eu" file="file=cnbc_live"/>
+				</Channel>
+			
+			
+			<Channel id="bbcworldnewsuk" name="BBC World News" desc=""
+					lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://www.livestation.com/flash/player/5.4/player.swf"
+						link="streamer=rtmp://media2.lsops.net/live/" url="http://www.livestation.com/"
+						file="file=bbcworld1_en_high.sdp" />
+				</Channel>
+			
+			<Channel id="peacetvuk" name="Peace TV" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://peace.fms.visionip.tv/live/"
+						url="http://www.peacetv.tv/" file="file=b2b-peace_sky-live-25f-4x3-sdh_1" />
+				</Channel>
+
+				<Channel id="activechannel" name="Active Channel" desc=""
+					lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://d1yolrx8wdti.rtmphost.com/simulcast"
+						url="http://player.longtailvideo.com" file="file=livestream" />
+				</Channel>
+
+				<Channel id="informationtvuk" name="Information TV" desc=""
+					lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://109.169.29.6/jw/player-licensed.swf" link="streamer=rtmp://109.169.29.6/InformationTV/livestream"
+						url="http://www.information.tv/WatchLive/FlashPlayer/" file="file=livestream"
+						extra="provider=rtmp" exclude="type" />
+				</Channel>
+
+				<Channel id="showcaseuk" name="Showcase" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://109.169.29.6/jw/player-licensed.swf" link="streamer=rtmp://109.169.29.6/ShowcaseTV/livestream/"
+						url="http://www.information.tv/WatchLive/FlashPlayer/" file="file=livestream"
+						extra="provider=rtmp" exclude="type" />
+				</Channel>
+
+				<Channel id="showcase2uk" name="Showcase 2" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://109.169.29.6/jw/player-licensed.swf" link="streamer=rtmp://109.169.29.6/ShowcTV/livestream"
+						url="http://www.information.tv/WatchLive/FlashPlayer/" file="file=livestream"
+						extra="provider=rtmp" exclude="type" />
+				</Channel>
+
+
+				<Channel id="natgeohduk" name="National Geographic HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050225.stream" />
+				</Channel>
+				
+				<Channel id="skymoviescomedy" name="Sky Movies HD (Comedy)" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050231.stream" />
+				</Channel>
+				
+				<Channel id="skymoviesdrama" name="Sky Movies HD (Drama Romance)" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050229.stream" />
+				</Channel>
+				
+				<Channel id="skymoviesmdn" name="Sky Movies HD (MDN Greats)" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050228.stream" />
+				</Channel>
+				
+				<Channel id="skymoviesscifi" name="Sky Movies HD (SciFi-Horror)" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050230.stream" />
+				</Channel>
+				
+				<Channel id="skynews" name="Sky News HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050227.stream" />
+				</Channel>
+				
+				<Channel id="skysports" name="Sky Sports HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050226.stream" />
+				</Channel>
+				
+				<Channel id="historyhduk" name="History HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050003.stream" />
+				</Channel>
+				
+				
+			
+				<Channel id="bbchd" name="BBC HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010201.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010201.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010201.stream" />
+				</Channel>
+				
+				<Channel id="cinemax2hd" name="Cinemax 2 HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010401.stream" />
+				</Channel>
+				
+				<Channel id="cinemaxhd" name="Cinemax HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050221.stream" />
+				</Channel>
+
+				<Channel id="comedycentral" name="Comedy Central" desc=""
+					lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z020503.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z020503.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z020503.stream" />
+				</Channel>
+
+				<Channel id="biochannel" name="Bio Channel" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z020204.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z020204.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z020204.stream" />
+				</Channel>
+
+				<Channel id="mgmhd" name="MGM HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z020401.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z020401.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z020401.stream" />
+				</Channel>
+
+				<Channel id="natgeowilduk" name="Nat Geo Wild" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050204.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z050204.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z050204.stream" />
+				</Channel>
+
+				<Channel id="itv2hd" name="itv 2 HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z020102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z020102.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z020102.stream" />
+				</Channel>
+
+				<Channel id="itv3hd" name="itv 3 HD" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z020103.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z020103.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z020103.stream" />
+				</Channel>
+
+				<Channel id="mtvhdlive" name="MTV Live HD" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010001.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010001.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010001.stream" />
+				</Channel>
+
+				<Channel id="eurosporthd" name="Eurosport HD" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010601.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010601.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010601.stream" />
+				</Channel>
+
+				<Channel id="eurosport2hd" name="Eurosport 2 HD" desc=""
+					lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010301.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010301.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010301.stream" />
+				</Channel>
+
+				<Channel id="skypoker" name="Sky Poker" desc="" lid="en" cid="GB">
+					<Stream type="1" embedd="1"
+						player="http://media2.myfoxtampabay.com/html/live/AkamaiFlashPlayer.swf"
+						link="src=rtmp://cp67698.live.edgefcs.net/live/SkyPoker_500k@9124"
+						url="http://media2.myfoxtampabay.com/" />
+				</Channel>
+
+				<Channel id="euronews" name="Euro News" desc="" lid="en" cid="GB">
+				
+					<Stream type="1" embedd="0"
+						player="http://www.euronews.net/media/player_live_1_12.swf"
+						url="http://www.euronews.net/news/streaming-live/" file="fluff=6c9164298ea05828fefea070774f5647"
+						extra="autoplay=true&amp;lng=en"
+						/>
+						
+					<Stream type="1" embedd="1"
+						player="http://beta.cdn.livestation.com/player/5.7/player.swf"
+						link="streamer=rtmp://media7.lsops.net/live" url="http://www.livestation.com"
+						file="file=euronews_en_medium.sdp" />
+						
+					
+				</Channel>
+				
+
+
+<!-- 				<Channel id="cartoonnetworkuk" name="Cartoon Network" desc="" -->
+<!-- 					lid="en" cid="GB"> -->
+<!-- 					<Stream type="1" embedd="1" -->
+<!-- 						player="http://www.f4funda.com/player/player.swf" -->
+<!-- 						link="streamer=rtmp://live.dmasti.pk/ent" -->
+<!-- 						url="http://www.dmasti.pk" file="file=livestream.flv" /> -->
+<!-- 				</Channel> -->
+
+				<Channel id="zinguk" name="Zing TV" desc="" lid="en" cid="GB">
+					<Stream type="0"
+						link="rtsp://217.146.95.166:554/playlist/ch28zqcif.3gp" />
+				</Channel>
+
+				<Channel id="miamitv" name="Miami TV" desc="" lid="en" cid="GB">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch50yqcif.3gp" />
+				</Channel>
+
+				<Channel id="bbc1uk" name="BBC 1" desc="" lid="2" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://www.bbc.co.uk/emp/10player.swf" url="http://www.bbc.co.uk"
+						file="playlist=http://www.bbc.co.uk/emp/simulcast/bbc_one_london.xml"
+						extra="config_settings_autoPlay=true" />
+				</Channel>
+
+				<Channel id="bbc2uk" name="BBC 2" desc="" lid="2" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://www.bbc.co.uk/emp/10player.swf" url="http://www.bbc.co.uk"
+						file="playlist=http://www.bbc.co.uk/emp/simulcast/bbc_two_england.xml"
+						extra="config_settings_autoPlay=true" />
+				</Channel>
+
+				<Channel id="bbc3uk" name="BBC 3" desc="" lid="2" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://www.bbc.co.uk/emp/10player.swf" url="http://www.bbc.co.uk"
+						file="playlist=http://www.bbc.co.uk/emp/simulcast/bbc_three.xml"
+						extra="config_settings_autoPlay=true" />
+				</Channel>
+
+				<Channel id="bbc4uk" name="BBC 4" desc="" lid="2" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://www.bbc.co.uk/emp/10player.swf" url="http://www.bbc.co.uk"
+						file="playlist=http://www.bbc.co.uk/emp/simulcast/bbc_four.xml"
+						extra="config_settings_autoPlay=true" />
+				</Channel>
+
+				<Channel id="bbcnews24" name="News 24" desc="" lid="2" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://www.bbc.co.uk/emp/10player.swf" url="http://www.bbc.co.uk"
+						file="playlist=http://www.bbc.co.uk/emp/simulcast/bbc_news24.xml"
+						extra="config_settings_autoPlay=true" />
+				</Channel>
+
+				<Channel id="cbeebies" name="CBeebies" desc="" lid="2" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://www.bbc.co.uk/emp/10player.swf" url="http://www.bbc.co.uk"
+						file="playlist=http://www.bbc.co.uk/emp/simulcast/cbeebies.xml"
+						extra="config_settings_autoPlay=true" />
+				</Channel>
+
+				<Channel id="cbbc" name="CBBC" desc="" lid="2" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://www.bbc.co.uk/emp/10player.swf" url="http://www.bbc.co.uk"
+						file="playlist=http://www.bbc.co.uk/emp/simulcast/cbbc.xml" extra="config_settings_autoPlay=true" />
+				</Channel>
+
+				<Channel id="chelseatv" name="Chelsea TV" desc="" lid="en"
+					cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://sakitvs.com/player2/player.swf" 
+						link="streamer=rtmp://cp96798.live.edgefcs.net:443/live"
+						url="http://sakitvs.com/"
+						file="file=rtmp://cp96798.live.edgefcs.net:443/live"
+						extra="id=ChelTV_Ch01_1000k@26291" exclude="controlbar" />
+				</Channel>
+
+			</Language>
+
+			<Language id="12">
+
+				<Channel id="channels" name="Channel S" desc="" lid="12"
+					cid="GB">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch45yqcif.3gp" />
+					
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://87.85.80.99/live"
+						url="http://player.longtailvideo.com" file="file=myStream1.sdp" />
+				</Channel>
+
+			</Language>
+
+			<Language id="ar">
+
+				<Channel id="euronewsarabic" name="Euro News (Arabic)" desc=""
+					lid="ar" cid="GB">
+					<Stream type="1" embedd="0"
+						player="http://arabic.euronews.net/media/player_live_1_12.swf"
+						url="http://arabic.euronews.net/news/streaming-live/" file="fluff=f1e8d0d6842aa8049989e558ff7b4ab6"
+						extra="autoplay=true&amp;lng=ar" />
+
+					<Stream type="1" embedd="0"
+						player="http://beta.cdn.livestation.com/player/5.7/player.swf"
+						link="streamer=rtmp://media7.lsops.net/live" url="http://www.livestation.com/"
+						file="file=euronews_ar_high.sdp" />
+				</Channel>
+
+			</Language>
+		</Country>
+
+		<Country id="US">
+
+			<Language id="en">
+			
+			<Channel id="universityofcalifornia" name="University Of California" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=streamer=rtmp://webcast.ucsd.edu/live/uctv" 
+						url="http://www.uctv.tv/watch/"
+						file="file=uctv" />
+				</Channel>
+			
+			<Channel id="unitednations" name="United Nations Broadcast" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp101680.live.edgefcs.net/live" 
+						url="http://www.unmultimedia.org/tv/webcast/index.html"
+						file="file=channel-1@52028" />
+				</Channel>
+				
+				<Channel id="usahd" name="USA HD" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://38.96.175.173:1935/live/ " 
+						url="http://www.veohcast.tv/veohV.php"
+						file="file=00000@hyqw" />
+				</Channel>
+				
+			
+				<Channel id="natgeowildhdus" name="National Geographic Wild HD" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050204.stream" />
+				</Channel>
+				
+<!-- 				<Channel id="oc16hawai" name="OC 16 (Hawaii)" desc="" lid="en" cid="US"> -->
+<!-- 					<Stream type="1" embedd="1" -->
+<!-- 						player="http://www.oc16.tv/videoplayer/jw/player.swf" -->
+<!-- 						link="streamer=rtmp://24.165.45.209/oc16live/" url="http://www.oc16.tv/" -->
+<!-- 						file="file=oc16" /> -->
+<!-- 				</Channel> -->
+
+				<Channel id="tbnus" name="TBN" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://stream1.trinetsolutions.com/tbn/ " 
+						url="http://www.tbn.org/"
+						file="file=tbnworld_high.sdp" />
+				</Channel>
+				
+				<Channel id="tbdus" name="TBD" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://stream.tbd.com:443/live/ " 
+						url="http://www.tbd.com/tv/"
+						file="file=TBD-Live-Stream@31483" />
+				</Channel>
+				
+				<Channel id="starzus" name="Starz" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://38.96.175.173:1935/live/" 
+						url="http://tvopencast.com/video.php"
+						file="file=20012@hyqw" />
+				</Channel>
+				
+				<Channel id="pentagon" name="Pentagon Channel" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp114761.live.edgefcs.net:443/live/" 
+						url="http://www.pentagonchannel.mil/library.html"
+						file="file=tpc-live_1@44263" />
+				</Channel>
+				
+				<Channel id="shopnbc" name="Shop NBC" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://shopnbc.fmsls.entriq.net:443/live/" 
+						url="http://www.shopnbc.com/"
+						file="file=live_01@13361" />
+				</Channel>
+				
+				
+
+			<Channel id="intelligence2" name="Intelligence 2" desc="" lid="en"	cid="US">
+				<Stream type="1" embedd="1"
+						player="http://beta.cdn.livestation.com/player/5.7/player.swf"
+						link="streamer=rtmp://media4.lsops.net/intelligence2/" 
+						url="http://www.livestation.com/channels/78-intelligence-english"
+						file="file=playlist" />
+			</Channel>
+			
+			<Channel id="hlnnews" name="HLN News" desc="" lid="en"	cid="US">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://a.cdn.msnbclive.eu/edge/" 
+          url="http://www.rentadrone.org/hln-live-stream-feed/" file="file=hln_live"/>
+				</Channel>
+				
+			
+			<Channel id="godtvus" name="GOD " desc="" lid="en"	cid="US">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://cp54208.live.edgefcs.net/live" 
+          url="http://www.ewtn.com/" file="file=EWTN@2954"/>
+				</Channel>
+			
+			<Channel id="ewtnus" name="EWTN" desc="" lid="en"	cid="US">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://cp54208.live.edgefcs.net/live" 
+          url="http://www.ewtn.com/" file="file=EWTN@2954"/>
+				</Channel>
+				
+			
+			<Channel id="espnus" name="ESPN" desc="" lid="en"	cid="US">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://38.96.175.173:1935/live" 
+          url=" http://www.veohcast.tv/80001.php?n=80001@hyqw" file="file=80001@hyqw"/>
+				</Channel>
+				
+				<Channel id="cnnusa" name="CNN" desc="" lid="en"	cid="US">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://a.cdn.msnbclive.eu/edge/" 
+          url="http://www.rentadrone.tv/cnbc-live-stream/" file="file=cnn_uza"/>
+				</Channel>
+				
+				<Channel id="msnbcusa" name="MSNBC" desc="" lid="en"	cid="US">
+          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+          link="streamer=rtmp://e.cdn.msnbclive.eu/edge/" 
+          url="http://www.rentadrone.tv/msnbc-live-rockinroosters/" file="file=msnbc_live"/>
+				</Channel>
+				
+				<Channel id="nasa" name="NASA" desc="" lid="en"	cid="US">
+			          <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+			          link="streamer=rtmp://cp76072.live.edgefcs.net/live/" 
+			          url="http://www.nasa.gov/multimedia/nasatv/media_flash.html" 
+			          file="file=MED-HQ-Flash@42814"/>
+			          
+			          <Stream type="1" embedd="1"
+									player="http://static-cdn1.ustream.tv/swf/live/viewer.swf" url="http://www.ustream.tv/"
+									file="cid=6540154" />
+				</Channel>
+				
+		
+				
+
+				<Channel id="fox5usa" name="Fox 5" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=myfoxny" extra="type=livestream" />
+				</Channel>
+
+
+				<Channel id="filmhd" name="Film HD" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z050230.stream" />
+				</Channel>
+				
+				<Channel id="espnamericahd" name="ESPN America HD" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050201.stream" />
+				</Channel>
+				
+				<Channel id="natgeohdus" name="National Geographic HD" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050203.stream" />
+				</Channel>
+			
+				
+				<Channel id="cinemahitshd" name="Cinema Hits" desc="" lid="en" cid="US">
+				<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s6.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z150211.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z050211.stream " />
+				</Channel>
+
+			
+
+				<Channel id="disneyxdusa" name="Disney XD" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://www.justin.tv/widgets/live_embed_player.swf" url="http://www.justin.tv"
+						file="channel=eldustmans_disney" extra="auto_play=true" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z020101.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z020101.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z020101.stream" />
+				</Channel>
+				
+				<Channel id="peacetvusa" name="Peace TV" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://peace.fms.visionip.tv/live/"
+						url="http://www.peacetv.tv/" file="file=b2b-peace_usa-live-25f-4x3-sdh_1" />
+				</Channel>
+
+				<Channel id="miamitvmusic" name="Miami Tv Music" desc=""
+					lid="en" cid="US">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch51yqcif.3gp" />
+				</Channel>
+
+
+				<Channel id="redbull" name="Redbull TV" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://www.shadownet.ro/webplayer/player-sdw.swf" link="streamer=rtmp://cp93704.live.edgefcs.net:443/live/"
+						url="http://www.shadownet.ro/" file="file=redbull2@21839" />
+				</Channel>
+
+				<Channel id="bloombergusa" name="Bloomberg" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="0"
+						player="http://www.shadownet.ro/webplayer/player-sdw.swf"
+						link="streamer=rtmp://cp87869.live.edgefcs.net/live/us_300@21006"
+						url="http://www.shadownet.ro/" file="file=us_300@21006" />
+				</Channel>
+
+				<Channel id="bloomberg2usa" name="Bloomberg 2" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://beta.cdn.livestation.com/player/5.7/player.swf"
+						link="streamer=rtmp://media7.lsops.net/live" url="http://www.livestation.com"
+						file="file=bloomber_en_high.sdp" />
+				</Channel>
+
+				<Channel id="cspan1" name="C-Span 1" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://cp82346.live.edgefcs.net/live"
+						url="http://www.c-span.org/Live-Video/C-SPAN/" file="file=CSPAN1@14845" 
+						extra="type=video" exclude="type"/>
+				</Channel>
+
+				<Channel id="cspan2" name="C-Span 2" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp82347.live.edgefcs.net:1935/live?ovpfv=2.1.4/CSPAN2@14846"
+						url="http://www.c-span.org/Live-Video/C-SPAN/" file="file=CSPAN2@14846" 
+						extra="type=video" exclude="type"/>
+				</Channel>
+				
+				<Channel id="cspan3" name="C-Span 3" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp82348.live.edgefcs.net/live"
+						url="http://www.c-span.org/Live-Video/C-SPAN/" file="file=CSPAN3@14847" 
+						extra="type=video" exclude="type"/>
+				</Channel>
+				
+				<Channel id="cbnliveus" name="CBN Live" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp145180.live.edgefcs.net/live/"
+						url="http://www.cbn.com/media/player/index.aspx?s=cbnlive-1"
+						file="file=iptv1_1_500@42325" />
+				</Channel>
+				
+				<Channel id="cbnnewsus" name="CBN News" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://cp145180.live.edgefcs.net/live/"
+						url="http://www.cbn.com/media/player/index.aspx?s=cbnlive-3"
+						file="file=newschannel_1_500@42322" />
+				</Channel>
+
+				<Channel id="movies1usa" name="Movies 1" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r0d388c71a067b3ec299c86cdbd708d53c259572e.swf"
+						url="http://www.justin.tv" file="channel=whitey_inc28" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="movies2usa" name="Movies 2" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r0d388c71a067b3ec299c86cdbd708d53c259572e.swf"
+						url="http://www.justin.tv" file="channel=luis_mov31" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="movies3usa" name="Movies 3" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r0d388c71a067b3ec299c86cdbd708d53c259572e.swf"
+						url="http://www.justin.tv" file="channel=booku26" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="classichitschannel" name="Classic Hits Channel"
+					desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r0d388c71a067b3ec299c86cdbd708d53c259572e.swf"
+						url="http://www.justin.tv" file="channel=pabm00" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="realitytv" name="Reality TV" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://www-cdn.jtvnw.net/widgets/live_embed_player.r0d388c71a067b3ec299c86cdbd708d53c259572e.swf"
+						url="http://www.justin.tv" file="channel=channel3" extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="cmccalifornia" name="CMC California" desc=""
+					lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://http.vitalstreamcdn.com/flashskins/V2Player.swf"
+						link="serverAppInstName=rtmp://cmctv.flash.internapcdn.net/cmctv_vitalstream_com/live_adaptive_1"
+						url="http://www.cmctv.com/" file="stream1=CMC-TV_adaptive1" extra="autoPlay=true" />
+				</Channel>
+
+				<Channel id="cmcusa" name="CMC USA" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://http.vitalstreamcdn.com/flashskins/V2Player.swf"
+						link="serverAppInstName=rtmp://cmctv.flash.internapcdn.net/cmctv_vitalstream_com/live_1"
+						url="http://www.cmctv.com/" file="stream1=CMCUSA" extra="autoPlay=true" />
+				</Channel>
+
+				<Channel id="cmcbeatlounge" name="CMC Beat Lounge" desc=""
+					lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://http.vitalstreamcdn.com/flashskins/V3Player.swf"
+						link="smil=http://cmctv.http.internapcdn.net/cmctv_vitalstream_com/inapcms/CMS15326/flash/15326.smil"
+						url="http://www.cmctv.com/" extra="autoPlay=true" />
+				</Channel>
+
+				<Channel id="foxnews" name="Fox News" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://video.foxnews.com/assets/akamai/FoxNewsPlayer.swf"
+						url="http://www.foxnews.com/" file="data_feed_url=http://video.foxnews.com/v/feed/live/01.js"
+						extra="auto_play=true" />
+				</Channel>
+
+				<Channel id="abcnews" name="ABC News" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="0"
+						player="http://cdnapi.kaltura.com//index.php/kwidget/wid/_483511/uiconf_id/6595722/entry_id/1_1r31srpy"
+						url="http://www.abcnews.com/" extra="contentType=video" />
+				</Channel>
+
+				<Channel id="countrymusic" name="Country Music" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="0"
+						player="http://www.freeintertv.com/modules/View/SWF/liveplayer/liveplayer.swf"
+						link="src=rtmp://cp54218.live.edgefcs.net/live/SEGroup_AFN@14881"
+						url="http://www.freeintertv.com/" extra="scaleMode=stretch" />
+				</Channel>
+
+				<Channel id="4kidsfilmon" name="4 Kids" desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://199.59.205.18:1935/live/_definst_/409.high.stream"
+						url="live97.origin.la3.filmon.com:1935" file="file=409.high.stream" />
+				</Channel>
+
+				<Channel id="collegefootball" name="College Football" desc=""
+					lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://live97.origin.la3.filmon.com:1935/live/_definst_/488.high.stream"
+						url="live97.origin.la3.filmon.com:1935" file="file=488.high.stream" />
+				</Channel>
+
+				<Channel id="footballfilmon" name="Football" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://live100.origin.ams.filmon.com:1935/live/_definst_/374.high.stream"
+						url="live100.origin.ams.filmon.com:1935" file="file=374.high.stream" />
+				</Channel>
+
+				<Channel id="comedynet" name="Comedy Net" desc="" lid="en"
+					cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://live127.origin.la3.filmon.com:1935/live/_definst_/497.high.stream"
+						url="live127.origin.la3.filmon.com:1935" file="file=497.high.stream" />
+				</Channel>
+
+				<Channel id="worldofmartialarts" name="World Of Martial Arts"
+					desc="" lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://199.59.205.17:1935/live/_definst_/406.high.stream"
+						url="199.59.205.17:1935" file="file=406.high.stream" />
+				</Channel>
+
+				<Channel id="blackflag" name="Black FLag (Canada)" desc=""
+					lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://184.107.48.113:1935/live"
+						url="199.59.205.17:1935" file="file=livestream" />
+				</Channel>
+				
+				<Channel id="americanhorrors" name="American Horror" desc=""
+					lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://205.185.215.6/live393"
+						url="http://www.filmon.com/htmlmain" file="file=393.low.stream" />
+				</Channel>
+				
+				<Channel id="hollywoodchannel" name="Hollywood Channel" desc=""
+					lid="en" cid="US">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://199.59.204.92/live"
+						url="http://www.filmon.com/htmlmain" file="file=411.low.stream" />
+				</Channel>
+
+
+
+			</Language>
+
+		</Country>
+
+		<Country id="IT">
+
+			<Language id="it">
+
+				<Channel id="euronewsit" name="Euro News" desc="" lid="it"
+					cid="IT">
+					<Stream type="1" embedd="1"
+						player="http://it.euronews.net/media/player_live_1_12.swf" url="http://it.euronews.net/notizie/in-diretta/"
+						file="fluff=078da9bf4bb0664f74ff262d5af9fab6" extra="autoplay=true&amp;lng=it" />
+					<Stream type="1" embedd="1"
+						player="http://beta.cdn.livestation.com/player/5.7/player.swf"
+						link="streamer=rtmp://media7.lsops.net/live" url="http://www.livestation.com"
+						file="file=euronews_it_medium.sdp" />
+				</Channel>
+
+
+				<Channel id="virginrock" name="Virgin Rock Tv Live" desc=""
+					lid="it" cid="IT">
+					<Stream type="1" embedd="0"
+						player="http://www.shadownet.ro/webplayer/player1.swf" link="streamer=rtmp://fms.105.net:1935/live/"
+						url="http://www.shadownet.ro/" file="file=virgin1" extra="type=video" />
+					<Stream type="1" embedd="0"
+						player="http://video.virginradioitaly.it/com/universalmind/swf/videoPlayerTV.swf"
+						url="http://www.virginradioitaly.it/"
+						file="xmlPath=http://video.virginradioitaly.it/com/universalmind/tv/virgin/videoXML.xml" />
+				</Channel>
+
+				<Channel id="cielo" name="cielo" desc="" lid="it" cid="IT">
+					<Stream type="1" embedd="0"
+						player="http://www.shadownet.ro/webplayer/player-sdw.swf"
+						link="streamer=rtmp://cp86825.live.edgefcs.net/live/cielo_std@17630"
+						url="http://www.shadownet.ro/" file="file=cielo_std@17630.flv"
+						extra="type=video" />
+				</Channel>
+
+				<Channel id="italia1" name="Italia 1" desc="" lid="it" cid="IT">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010502.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010502.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010502.stream" />
+				</Channel>
+
+				<Channel id="canale5" name="CANALE 5" desc="" lid="it" cid="IT">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010501.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z010501.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z010501.stream" />
+				</Channel>
+
+				<Channel id="italiafilm" name="Italia Film" desc="" lid="it"
+					cid="IT">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=italiafilm" extra="type=livestream" />
+				</Channel>
+
+				<Channel id="rai3" name="Rai 3" desc="" lid="it" cid="IT">
+					<Stream type="1" embedd="0"
+						player="http://www.live-onweb.com/events/low_embed_channel.swf"
+						link="srv=http://www.live-onweb.com" url="http://www.live-onweb.com/"
+						file="id=184" extra="showtoolbar=N" />
+				</Channel>
+
+				<Channel id="comingsoon" name="Coming Soon" desc="" lid="it"
+					cid="IT">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://origin01.cdcache.net/live/NOMESTREAM"
+						url="http://www.comingsoon.it/TV/Live/" file="file=livetv" />
+				</Channel>
+				
+			
+			</Language>
+
+			<Language id="de">
+
+				<Channel id="w24vienna" name="W24" desc="" lid="de" cid="IT">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://212.52.199.74/live_w24"
+						url="http://www.w24.at/" file="file=w24--400" />
+				</Channel>
+
+
+
+			</Language>
+			
+			<Language id="en">
+			
+				<Channel id="radiomontecarlo" name="Radio Montecarlo TV" desc="" lid="en"
+					cid="IT">
+					 <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         url="www.radiomontecarlo.net/"
+				          file="file=rmc2"/>
+					    <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         url="www.radiomontecarlo.net/"
+				          file="file=rmc1"/>
+				</Channel>
+				
+				<Channel id="italytv" name="Italy TV" desc="" lid="en"
+					cid="IT">
+					 <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         	url="www.radiomontecarlo.net/"
+				          file="file=italytv2"/>
+					 <Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         	url="www.radiomontecarlo.net/"
+				          file="file=italytv1"/>
+				</Channel>
+				
+				
+				<Channel id="legendit " name="Legend" desc="" lid="en"	cid="IT">
+				<Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         	url="www.radiomontecarlo.net/"
+				          file="file=legend2"/>
+				 	<Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         	url="www.radiomontecarlo.net/"
+				          file="file=legend1"/>
+				</Channel>
+				
+				<Channel id="top40 " name="Top 40" desc="" lid="en"	cid="IT">
+				<Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         	url="www.radiomontecarlo.net/"
+				          file="file=charts2"/>
+				 	<Stream type="1" embedd="1" player="http://player.longtailvideo.com/player5.7.swf" 
+				          link="streamer=rtmp://fms.105.net:1935/live" 
+				         	url="www.radiomontecarlo.net/"
+				          file="file=charts1"/>
+				</Channel>
+			
+			
+			
+			</Language>
+
+		</Country>
+
+		<Country id="RU">
+
+			<Language id="en">
+
+
+				<Channel id="russiatoday" name="Russia Today" desc="" lid="en"
+					cid="RU">
+					<Stream type="1" embedd="1" player="http://rt.com/s/swf/player.swf"
+						link="streamer=rtmp://fms5.visionip.tv/live" url="http://www.visionip.tv/"
+						file="file=RT_3.flv" />
+
+				</Channel>
+
+				<Channel id="rtdocfilms" name="RT Doc Films" desc="" lid="en"
+					cid="RU">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch60yqcif.3gp" />
+				</Channel>
+
+			</Language>
+
+			<Language id="ru">
+			
+			<Channel id="worldfashiontv" name="World Fashion TV" desc=""
+					lid="ru" cid="RU">
+					<Stream type="1" embedd="1" player="http://sakitvs.com/player/play.swf"
+						link="streamer=rtmp://freebandbusiness.fms.visionip.tv/live" url="http://www.visionip.tv/"
+						file="file=freeband_business-world_fashion-live-25f-4x3_2" />
+				</Channel>
+
+				<Channel id="pikhd" name="PIK HD" desc="" lid="ru" cid="RU">
+
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://pik-tv.com/"
+						file="file=piktv2pik2tv" link="streamer=rtmp://95.140.82.2/live/" />
+
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://pik-tv.com/"
+						file="file=piktv3pik3tv" link="streamer=rtmp://wms002.pik-tv.com/live/" />
+
+				</Channel>
+
+
+				<Channel id="hdextreme" name="HD Extreme" desc="" lid="ru"
+					cid="RU">
+
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://194.63.143.117:80/live/_definst_"
+						url="194.63.143.117:80" file="file=HDextremeCDN" />
+
+				</Channel>
+
+				<Channel id="hdprocess" name="HD Process" desc="" lid="ru"
+					cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://194.63.143.117:80/live/_definst_"
+						url="194.63.143.117:80" file="file=HDprocessCDN" />
+				</Channel>
+
+				<Channel id="hdtravel" name="HD Travel" desc="" lid="ru"
+					cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://194.63.143.117:80/live/_definst_"
+						url="194.63.143.117:80" file="file=HDtravelCDN" />
+				</Channel>
+
+				<Channel id="podsekaitv" name="Podsekai TV" desc="" lid="ru"
+					cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://217.199.218.151/podsekaiTV"
+						url="217.199.218.151" file="file=chanelSD" />
+				</Channel>
+
+
+				<Channel id="1hdmusic" name="1HD Music" desc="" lid="ru"
+					cid="RU">
+					<Stream type="1" embedd="0" player="http://1hd.ru/player/play.swf"
+						url="http://1hd.ru" file="file=rtmp://91.192.191.228:1935/live/livestream1"
+						extra="st=http://1hd.ru/player/1nitv.txt" />
+				</Channel>
+
+				<Channel id="bktrusiia" name="BKT" desc="" lid="ru" cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://www.mopweb.com/asx/player.swf" link="streamer=rtmp://vkt.cdnvideo.ru/rtp/"
+						url="http://www.mopweb.com/" file="file=1" extra="type=video" />
+				</Channel>
+
+				<Channel id="tomandjerry" name="Tom and Jerry" desc="" lid="ru"
+					cid="RU">
+					<Stream type="1" embedd="0"
+						player="http://yatv.ru/files/swf/container.swf" url="http://yatv.ru"
+						file="cid=24694" extra="layout=1full&amp;apps=translations&amp;autoplay=1" />
+				</Channel>
+
+
+				<Channel id="russianmusicbox" name="Russian Music Box" desc=""
+					lid="ru" cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://www.shanson.tv/mediaplayer/player.swf" link="streamer=rtmp://musicbox.cdnvideo.ru/musicbox-live"
+						url="http://www.shanson.tv/" file="file=musicbox.sdp" />
+				</Channel>
+
+				<Channel id="shansontv" name="Shanson TV" desc="" lid="ru"
+					cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://www.shanson.tv/mediaplayer110328/player.swf" link="streamer=rtmp://chanson.cdnvideo.ru/chanson-live"
+						url="http://www.shanson.tv/" file="file=shansontv.sdp" />
+				</Channel>
+
+				<Channel id="tht" name="THT" desc="" lid="ru" cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z040004.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z040004.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z040004.stream" />
+				</Channel>
+
+				<Channel id="firstchannel" name="First Channel" desc="" lid="ru"
+					cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z040002.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z040002.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z040002.stream" />
+				</Channel>
+
+				<Channel id="ctc" name="CTC" desc="" lid="ru" cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z040003.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z040003.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z040003.stream" />
+				</Channel>
+
+				<Channel id="hth" name="HTB" desc="" lid="ru" cid="RU">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z040001.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s99.webport.tv/live" url="http://www.tvsector.com/"
+						file="file=z040001.stream" />
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://s7.webport.tv/live/" url="http://www.tvsector.com/"
+						file="file=z040001.stream" />
+				</Channel>
+
+			</Language>
+
+		</Country>
+
+		<Country id="QA">
+
+			<Language id="en">
+
+				<Channel id="aljazeeraenglish" name="Al Jazeera English"
+					desc="" lid="en" cid="QA">
+					<Stream type="1" embedd="0"
+						player="http://myfreetv.ucoz.net/player.swf"
+						link="streamer=rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live"
+						url="http://myfreetv.ucoz.net/" file="file=aljazeera_english_1"
+						extra="videoId=883816736001&amp;type=flv" />
+					<Stream type="1" embedd="0"
+						player="http://www.elahmad.com/tv/swf/al_jazeera_english.swf" url="http://www.elahmad.com/" />
+				</Channel>
+
+
+
+
+			</Language>
+
+			<Language id="ar">
+
+				<Channel id="qatartv " name="Qatar TV" desc="" lid="ar" cid="QA">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.shadow-net.info/channels/arabtv/qatar-tv.html"
+						link="streamer=rtmp://78.100.44.238/secure/" file="file=Qtv" />
+				</Channel>
+
+
+				<Channel id="alkassqa" name="Al Kass Sports" desc="" lid="ar"
+					cid="QA">
+					<Stream type="1" embedd="1"
+						player="http://www.elahmad.com/tv/swf/alkass_hd.swf" url="http://www.elahmad.com/tv/alkass_sport.php"
+						file="kass_hd1" />
+					<Stream type="1" embedd="1"
+						player="http://www.elahmad.com/tv/swf/alkass1.swf " url="http://www.elahmad.com/tv/alkass_sport.php"
+						file="kass_sd1" />
+				</Channel>
+
+
+				<Channel id="alkasssportsplusqa" name="Al Kass Sports+"
+					desc="" lid="ar" cid="QA">
+					<Stream type="1" embedd="1"
+						player="http://www.elahmad.com/tv/swf/alkass_plus.swf" url="http://www.elahmad.com/tv/alkass_sport.php"
+						file="kass_plus1" />
+				</Channel>
+
+				<Channel id="aljazeeradocumentary" name="Al Jazeera Documentary"
+					desc="" lid="ar" cid="QA">
+					<Stream type="1" embedd="0"
+						player="http://myfreetv.ucoz.net/player.swf"
+						link="streamer=rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live"
+						url="http://myfreetv.ucoz.net/" file="file=aljazeera_doc_high"
+						extra="videoId=883816736001&amp;type=flv" />
+				</Channel>
+
+
+			</Language>
+
+		</Country>
+
+		<Country id="RO">
+
+			<Language id="ro">
+
+				<Channel id="1hdmusicro" name="One HD Music" desc="" lid="ro"
+					cid="RO">
+					<Stream type="1" embedd="0"
+						player="http://live.1hd.ro/jwplayer/player.swf" url="http://live.1hd.ro"
+						link="streamer=rtmp://93.114.43.3:1935/live" file="file=onehd" />
+				</Channel>
+
+				<Channel id="1hdclassicro" name="One HD Classics" desc=""
+					lid="ro" cid="RO">
+					<Stream type="1" embedd="0"
+						player="http://live.1hd.ro/jwplayer/player.swf" url="http://live.1hd.ro/classics.php"
+						link="streamer=rtmp://93.114.43.3:1935/live" file="file=classics" />
+				</Channel>
+
+
+				<Channel id="1hddancero" name="One HD Dance" desc="" lid="ro"
+					cid="RO">
+					<Stream type="1" embedd="0"
+						player="http://live.1hd.ro/jwplayer/player.swf" url="http://live.1hd.ro/dance.php"
+						link="streamer=rtmp://93.114.43.3:1935/live" file="file=dance" />
+				</Channel>
+
+				<Channel id="1hdjazzro" name="One HD Jazz" desc="" lid="ro"
+					cid="RO">
+					<Stream type="1" embedd="0"
+						player="http://live.1hd.ro/jwplayer/player.swf" url="http://live.1hd.ro/jazz.php"
+						link="streamer=rtmp://93.114.43.3:1935/live" file="file=jazz" />
+				</Channel>
+
+				<Channel id="eventtvro" name="Event TV" desc="" lid="ro"
+					cid="RO">
+					<Stream type="1" embedd="0"
+						player="http://www.event-tv.ro/player/player.swf" url="http://www.event-tv.ro/"
+						link="streamer=rtmp://93.114.44.21:1936/live" file="file=eventtv" />
+				</Channel>
+
+				<Channel id="1hdrockro" name="One HD Rock" desc="" lid="ro"
+					cid="RO">
+					<Stream type="1" embedd="0"
+						player="http://live.1hd.ro/jwplayer/player.swf" url="http://live.1hd.ro/"
+						link="streamer=rtmp://93.114.43.3:1935/live" file="file=rock" />
+				</Channel>
+
+				<Channel id="1hdpopro" name="One HD Pop" desc="" lid="ro"
+					cid="RO">
+					<Stream type="1" embedd="0"
+						player="http://live.1hd.ro/jwplayer/player.swf" url="http://live.1hd.ro/pop.php"
+						link="streamer=rtmp://93.114.43.3:1935/live" file="file=pop" />
+				</Channel>
+
+
+			</Language>
+		</Country>
+
+		<Country id="ES">
+
+			<Language id="en">
+
+				<Channel id="ibizaontv" name="Ibiza On TV" desc="" lid="en"
+					cid="ES">
+					<Stream type="0"
+						link="rtsp://217.146.95.166:554/playlist/ch25yqcif.3gp" />
+				</Channel>
+
+				<Channel id="youdivalite" name="You Diva Lite" desc="" lid="en"
+					cid="ES">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch36yqcif.3gp" />
+				</Channel>
+
+				<Channel id="fashionone" name="Fashion One" desc="" lid="en"
+					cid="ES">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch58yqcif.3gp" />
+				</Channel>
+
+			</Language>
+
+			<Language id="es">
+
+				<Channel id="euronewses" name="Euro News" desc="" lid="es"
+					cid="ES">
+					<Stream type="1" embedd="1"
+						player="http://es.euronews.net/media/player_live_1_12.swf" url="http://es.euronews.net/nachrichten/livestream/"
+						file="fluff=073de74efe4acf3aee0821bd57f539d5" extra="autoplay=true&amp;lng=es" />
+
+
+					<Stream type="1" embedd="1"
+						player="http://beta.cdn.livestation.com/player/5.7/player.swf"
+						link="streamer=rtmp://media7.lsops.net/live" url="http://www.livestation.com"
+						file="file=euronews_es_medium.sdp" />
+				</Channel>
+
+				<Channel id="canal+accion" name="CANAL+ ACCION" desc="" lid="es"
+					cid="ES">
+					<Stream type="1" embedd="0" player="http://maxtvstream.com/player.swf"
+						link="streamer=rtmp://188.165.222.147/15" url="http://maxtvstream.com"
+						file="file=34173cb38f07f89ddbebc2ac9128303f" />
+				</Channel>
+
+
+
+				<Channel id="3/24spain" name="3 - 24" desc="" lid="es" cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://324.directe-f4v.emissio.tvcatalunya.cat/live/"
+						url="http://jonas.do.am/" file="file=324_FLV@13068" />
+				</Channel>
+
+				<Channel id="33spain" name="33" desc="" lid="es" cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://33d.directe-f4v.emissio.tvcatalunya.cat/live/"
+						url="http://jonas.do.am/" file="file=33D_FLV@13067" />
+				</Channel>
+
+				<Channel id="canalvasco" name="CanalVasco" desc="" lid="es"
+					cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://cp70268.live.edgefcs.net/live/" url="http://jonas.do.am/"
+						file="file=eitb-CanalVasco@5519" />
+				</Channel>
+
+				<Channel id="etbsat" name="Etb Sat" desc="" lid="es" cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://cp70268.live.edgefcs.net/live/" url="http://jonas.do.am/"
+						file="file=eitb-ETBSat@5219" />
+				</Channel>
+
+
+				<Channel id="kisstv" name="Kiss TV" desc="" lid="es" cid="ES">
+					<Stream type="1" embedd="1"
+						player="http://kisstelevision.en-directo.com/kisstelevision_avw.swf"
+						url="http://kisstelevision.en-directo.com" />
+				</Channel>
+
+				<Channel id="telemadrid" name="TeleMadrid Sat" desc="" lid="es"
+					cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://cp118140.live.edgefcs.net/live/" url="http://jonas.do.am/"
+						file="file=TSAtelemadridsat@47720" />
+				</Channel>
+
+				<Channel id="telemadrid" name="TeleMadrid" desc="" lid="es"
+					cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://cp118141.live.edgefcs.net/live/" url="http://jonas.do.am/"
+						file="file=TSAlaotra@47718" />
+				</Channel>
+
+				<Channel id="bellaclub" name="Bella Club" desc="" lid="es"
+					cid="ES">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch41yqcif.3gp" />
+				</Channel>
+
+			</Language>
+
+			<Language id="ca">
+
+				<Channel id="tv3spain" name="TV3" desc="" lid="ca" cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://tv3.directe-f4v.emissio.tvcatalunya.cat/live/"
+						url="http://jonas.do.am/" file="file=TV3_FLV@12888" />
+				</Channel>
+
+				<Channel id="tv3catspain" name="TV3 CAT" desc="" lid="ca"
+					cid="ES">
+					<Stream type="1" embedd="0" player="http://jonas.do.am/player.swf"
+						link="streamer=rtmp://tv3cat.directe-f4v.emissio.tvcatalunya.cat/live/"
+						url="http://jonas.do.am/" file="file=TV3CAT_FLV@13069" />
+				</Channel>
+
+			</Language>
+		</Country>
+
+		
+		<Country id="NL">
+
+			<Language id="nl">
+
+				<Channel id="3mlnl" name="3ML" desc="" lid="nl" cid="NL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://fms1.3ml.nl/live/"
+						url="http://www.3ml.nl/gemist.php?id=live" file="file=livetv" />
+				</Channel>
+
+				<Channel id="at5nl" name="AT5" desc="" lid="nl" cid="NL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://stroom.at5.nl/redirectlive/"
+						url="http://www.at5.nl/live" file="file=live1.stream" />
+				</Channel>
+
+				<Channel id="omroepgelderland" name="Omroep Gelderland"
+					desc="" lid="nl" cid="NL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://fl1.ams.cdn.surf.net/live/"
+						url="http://www.omroepgelderland.nl/web/show/" file="file=surfnetvdox=OmroepGelderland=livetv" />
+				</Channel>
+
+				<Channel id="Omropfryslan" name="Omrop Fryslan" desc="" lid="nl"
+					cid="NL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://fl.media05.kpnstreaming.nl/live/_definst_/"
+						url="http://www.omroplive.nl/omrop-fryslan-tv/" file="file=kpn=OmropFryslanL=KpnOmropLive-2" />
+				</Channel>
+
+				<Channel id="rtvnh" name="RTV N-H" desc="" lid="nl" cid="NL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://stream.rtvnh.nl/live/"
+						url="http://www.rtvnh.nl/live/tv/" file="file=sz=rtvnh=livestream1" />
+				</Channel>
+
+
+			</Language>
+		</Country>
+
+		<Country id="PK">
+
+			<Language id="ur">
+
+				<Channel id="duniyanews" name="Duniya News" desc="" lid="ur"
+					cid="PK">
+					<Stream type="1" embedd="1"
+						player="http://dunyanews.tv/newsite/live_stream/player.swf" url="http://dunyanews.tv/"
+						file="file=cam.flv" link="streamer=rtmp://173.245.68.50/live" />
+				</Channel>
+
+				<Channel id="samaanews" name="Samaa News" desc="" lid="ur"
+					cid="PK">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.samistream.com"
+						file="file=livestream2" link="streamer=rtmp://38.96.148.98:1936/ss" />
+				</Channel>
+
+			</Language>
+
+		</Country>
+
+		<Country id="AE">
+
+			<Language id="ar">
+
+				<Channel id="dubaione" name="Dubai ONE" desc="" lid="ar"
+					cid="AE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.elahmad.com/"
+						file="file=mp4:dubaione440.sdp" link="streamer=rtmp://stream4.dmi.ae/live4/" />
+				</Channel>
+
+				<Channel id="dubaisportsone" name="Dubai Sports 1" desc=""
+					lid="ar" cid="AE">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.elahmad.com/"
+						file="file=mp4:dubaisport520.sdp" link="streamer=rtmp://stream4.dmi.ae/live4/" />
+				</Channel>
+				
+				<Channel id="orientar" name="Orient TV" desc="" lid="ar"
+					cid="AE">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.shadow-net.info/channels/arabtv/orient-tv.html"
+						link="streamer=rtmp://67.228.219.186:1935/live/" file="file=orient" />
+				</Channel>
+				
+				<Channel id="samadubai" name="Sama Dubai" desc="" lid="ar"
+					cid="AE">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.dmi.ae"
+						link="streamer=rtmp://stream4.dmi.ae/live4/"
+						file="file=samadubai440.sdp" />
+				</Channel>
+				
+
+			</Language>
+
+		</Country>
+
+		<Country id="PL">
+		
+		<Language id="en">
+		
+			
+				<Channel id="hbohdpl" name="HBO HD" desc="" lid="en" cid="PL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010402.stream" />
+				</Channel>
+				
+				<Channel id="foxhdpl" name="FOX HD" desc="" lid="pl" cid="PL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z050224.stream" />
+				</Channel>
+				
+				<Channel id="hbo2hdpl" name="HBO 2 HD" desc="" lid="en" cid="PL">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z010701.stream" />
+				</Channel>
+		
+		</Language>
+		
+		</Country>
+		
+		<Country id="PT">
+		
+		<Language id="pt">
+		
+		
+			<Channel id="axnblackpt" name="AXN Black" desc="" lid="pt"
+					cid="PT">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisaaxnblack" file="file=televisaaxnblack" />
+			</Channel>
+			
+			<Channel id="foxcrimept" name="FOX Crime" desc="" lid="pt"
+					cid="PT">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisafoxcrime" file="file=televisafoxcrime" />
+			</Channel>
+			
+			<Channel id="foxlifept" name="FOX Life" desc="" lid="pt"
+					cid="PT">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisafoxlife" file="file=televisafoxlife" />
+			</Channel>
+			
+			<Channel id="foxmoviespt" name="FOX Movies" desc="" lid="pt"
+					cid="PT">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisafoxmovies" file="file=televisafoxmovies" />
+			</Channel>
+			
+			<Channel id="hollywoodpt" name="Hollywood" desc="" lid="pt"	cid="PT">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisahollywood" file="file=televisahollywood" />
+			</Channel>
+			
+				<Channel id="mtvpt" name="MTV" desc="" lid="pt"	cid="PT">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisamtv" file="file=televisamtv" />
+				</Channel>
+				
+				<Channel id="nationalgeographicpt" name="National Geographic" desc="" lid="pt"	cid="PT">
+					<Stream type="1" embedd="1"
+						player="http://www.histream.tv/player.swf"
+						link="streamer=rtmp://94.102.56.186/histream"
+						url="http://www.histream.tv/embedTele.php?file=televisanationalgeographic" file="file=televisanationalgeographic" />
+				</Channel>
+			
+		
+		</Language>
+		
+		</Country>
+		
+		<Country id="100">
+			<Language id="en">
+
+				<Channel id="penthousehd" name="Penthouse HD" desc="" lid="en"
+					cid="100">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z990103.stream" />
+				</Channel>
+
+				<Channel id="hustlerhd" name="Hustler HD" desc="" lid="en"
+					cid="100">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z990102.stream" />
+				</Channel>
+
+				<Channel id="penthouse2hd" name="Penthouse 2 HD" desc=""
+					lid="en" cid="100">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z990104.stream" />
+				</Channel>
+
+				<Channel id="redlighthd" name="Redlight HD" desc="" lid="en"
+					cid="100">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://tv.tvsector.com/live/" url="http://www.tvsector.com/"
+						file="file=z990101.stream" />
+				</Channel>
+
+				<Channel id="playboy" name="Playboy Channel" desc="" lid="en"
+					cid="100" enabled="0">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=playboyoff" extra="type=livestream" />
+				</Channel>
+
+				<Channel id="venus" name="Venus TV" desc="" lid="en" cid="100" >
+					<Stream type="1" embedd="0"
+						player="http://www.webcaston.com/player/player.swf" 
+						url="http://www.webcaston.com/desoott"
+						link="streamer=rtmp://c91.webcaston.com/live/channel/"
+						file="file=desoott" />
+				</Channel>
+				
+				<Channel id="bluebird" name="Bluebird TV" desc="" lid="en" cid="100" >
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://ovego.3dn.ru/publ/live_tv/ehrotika_18/bluebird_tv_live/13-1-0-169"
+						link="streamer=rtmp://178.33.224.86/iptv_freeblue/"
+						file="file=tv9552" />
+				</Channel>
+				
+				
+				<Channel id="sexysattv" name="SexySat TV" desc="" lid="en" cid="100" >
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://ovego.3dn.ru/publ/live_tv/ehrotika_18/sexysat_tv_live/13-1-0-182"
+						link="streamer=rtmp://81.89.48.215/xyz999wkz/"
+						file="file=myStream.stream_360p" />
+				</Channel>
+				
+				<Channel id="sexytationtv" name="Sex Station Tv" desc="" lid="en" cid="100" >
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.tvtuga.org/sexstation-tv/"
+						link="streamer=rtmp://93.89.84.216/iptv_cellcast_24/"
+						file="file=livestream1" />
+				</Channel>
+			
+				<Channel id="tele" name="Tele 5" desc="" lid="en" cid="100" enabled="0">
+					<Stream type="1" embedd="0"
+						player="http://cm2.atmitv.pl/ContentManager/swf/Player.swf" url="http://cm2.atmitv.pl"
+						file="m=http://cm2.atmitv.pl/ContentManager/utilitiesGetFlashPlayList.go?iid=1689" />
+				</Channel>
+
+				<Channel id="padtv" name="The Pad TV" desc="" lid="en" cid="100">
+					<Stream type="1" embedd="0"
+						player="http://www.tvtuga.org/asx/player.swf" url="http://www.tvtuga.org"
+						file="file=rtmp://93.89.84.216/iptv_cellcast_24/" extra="id=livestream1"
+						exclude="controlbar" />
+				</Channel>
+
+
+				<Channel id="bikinigirl" name="Bikini TV" desc=""
+					lid="en" cid="100" enabled="0">
+					<Stream type="1" embedd="0"
+						player="http://www.shadownet.ro/webplayer/player1.swf" link="streamer=rtmp://69.55.52.216/live380/"
+						url="http://www.shadownet.ro/" file="file=380.high.stream" extra="type=video" />
+				</Channel>
+
+				<Channel id="hotlatino" name="Hot Latino" desc="" lid="en"
+					cid="100">
+					<Stream type="1" embedd="0"
+						player="http://www.televisionporno.net/skr_player_flv.swf" url="http://www.televisionporno.net/"
+						file="file=http://www.televisionporno.net/categorias/porno-espanol.xml"
+						exclude="controlbar/type/screencolor/wmode" />
+				</Channel>
+
+
+				<Channel id="porntv" name="Porn TV1" desc="" lid="en" cid="100">
+					<Stream type="1" embedd="0"
+						player="http://www.myeasytv.com/adult/player/mediaplayer1.swf"
+						url="http://www.myeasytv.com/" file="file=http://www.myeasytv.com/adult/player/blowjob.xml"
+						exclude="controlbar/type" />
+				</Channel>
+
+				<Channel id="eurohottv" name="Euro Hot TV" desc="" lid="en"
+					cid="100">
+					<Stream type="1" embedd="0" player="http://freetubetv.net/freetube.swf"
+						url="http://freetubetv.net/" file="file=http://myarti.my.funpic.de/rba.php?channel=erohtv"
+						extra="bk1=http://moolasq.mo.ohost.de/playlist.php?channel=erohtv"
+						exclude="controlbar/type" />
+				</Channel>
+
+				<Channel id="babespotting" name="Babe Spotting" desc="" lid="en"
+					cid="100">
+					<Stream type="0" link="rtsp://217.146.95.166:554/live/ch22yqcif.3gp" />
+				</Channel>
+
+				<Channel id="wptverotyka" name="WPTV Erotyka" desc="" lid="en"
+					cid="100">
+					<Stream type="1" embedd="1"
+						player="http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf"
+						url="http://www.livestream.com/" file="file=filmesexy" extra="type=livestream" />
+				</Channel>
+
+			</Language>
+		</Country>
+
+		<Country id="101">
+		
+
+			<Language id="en">
+			
+		
+				<Channel id="presstv" name="Press TV (Iran)" desc=""	lid="en" cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						 url="http://www.presstv.ir/live/llnw/"
+						link="streamer=rtmp://presstv.fc.llnwd.net/presstv" 
+						file="file=presstv_800" />
+				</Channel>
+				
+				<Channel id="znstvbahamas" name="ZNS TV (Bahamas)" desc=""	lid="en" cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						 url="http://www.flashwebtown.com"
+						link="streamer=rtmp://shared.flashwebtown.com/synergybahamas/" 
+						file="file=znstv13" />
+				</Channel>
+				
+			
+			<Channel id="nhkworldjp" name="NHK World (Japan)"	desc="" lid="en" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://216.155.128.59:1935/2e2cd"
+						url="http://www3.nhk.or.jp/nhkworld/r/movie/index.html"
+						 file="file=nhkworldhd.sdp" />
+						 
+						 <Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						link="streamer=rtmp://ny-1.net.fivecool.org/2e2cd/"
+						url="http://www3.nhk.or.jp/"
+						 file="file=nhkworldglobalhigh1.sdp" />
+				</Channel>
+				
+
+				<Channel id="cchanneltrinidad" name="C Channel (Trinidad)"	desc="" lid="en" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://ctntworld.com/livestream/V2Player.swf"
+						link="serverAppInstName=rtmp://cnmg.flash.internapcdn.net/cnmg/live_1"
+						url="http://ctntworld.com/" file="stream1=CTVLIVE" extra="autoPlay=true" />
+				</Channel>
+				
+				<Channel id="cnc3trinidad" name="CNC 3 (Trinidad)" desc="" lid="en" cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						 url="http://www.peacetv.tv/ "
+						link="streamer=rtmp://media.guardian.co.tt:1935/live" 
+						file="file=cnc3" />
+				</Channel>
+				
+				<Channel id="peacetvasia" name="Peace TV (Asia)" desc="" lid="en" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						 url="http://www.peacetv.tv/ "
+						link="streamer=rtmp://peace.fms.visionip.tv/live/" 
+						file="file=b2b-peace_asia-live-25f-4x3-sdh_1" />
+				</Channel>
+				
+				<Channel id="citynewstoronto" name="City News Toronto (Canada)" desc=""	lid="en" cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf"
+						 url="http://www.citytv.com/toronto/citynews/video/liveplayer"
+						link="streamer=rtmp://cp105185.live.edgefcs.net:1935/live/" 
+						file="file=Citynewsch_online@15402" />
+				</Channel>
+
+			</Language>
+
+			<Language id="ar">
+
+				
+
+				<Channel id="almajid" name="Al Majid (Saudi Arabia)" desc=""
+					lid="ar" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.visionip.tv/"
+						link="streamer=rtmp://almajd.fms6.visionip.tv/live" file="file=mp4:b2b-almajd_space-almajd_space-live-25f-4x3_2" />
+				</Channel>
+
+
+				<Channel id="albaghdadia" name="Al-Baghdadia TV (Egypt)"
+					desc="" lid="ar" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.albaghdadia.com/livehigh/"
+						link="streamer=rtmp://212.187.212.149/vxedge/fs-ed63350000000000/"
+						file="file=fs-ed63350000000000" />
+				</Channel>
+
+				<Channel id="atvsat" name="ATV Sat (Egypt)" desc="" lid="ar"
+					cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.atvsat.com/v2/ar/watch-live.html"
+						link="streamer=rtmp://videos.atvsat.com/atvsatlive" file="file=atvsatlive" />
+				</Channel>
+
+				<Channel id="alsaharaar" name="Al Sahara (Saudi Arabia)"
+					desc="" lid="ar" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.alsahraa.tv/"
+						link="streamer=rtmp://154.obj.netromedia.net/alsahra" file="file=alsahra" />
+				</Channel>
+
+				<Channel id="linesportsaudi" name="Line Sport (Saudi Arabia)"
+					desc="" lid="ar" cid="101">
+					<Stream type="1" embedd="1" player="http://linesport.tv/player.swf"
+						url="http://linesport.tv/live.html" link="streamer=rtmp://69.65.43.108:1935/besmellah"
+						file="file=linesport1" />
+				</Channel>
+
+
+			</Language>
+
+			<Language id="13">
+
+				<Channel id="+23music" name="+23 Music (Panama)" desc=""
+					lid="13" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://www.freeetv.com/script/mediaplayer/player.swf"
+						link="streamer=rtmp://200.75.216.156/live" url="http://www.freeetv.com/"
+						file="file=livestream" extra="type=flv" exclude="type" />
+				</Channel>
+			</Language>
+
+			<Language id="es">
+
+				<Channel id="hchhonduras" name="HCH (Honduras)" desc="" lid="es"
+					cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://www.hablecomohabla.tv/site/"
+						link="streamer=rtmp://208.93.116.29:1935/channel7" file="file=hchtvdigital" />
+				</Channel>
+
+				<Channel id="vtvvenezuela" name="VTV (Venezuela)" desc=""
+					lid="es" cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://movipbox.streamguys.net/vtvdsl"
+						url="http://www.vtv.gob.ve/envivo/Index.htm" file="file=vtvdsl.sdp" />
+				</Channel>
+
+
+			</Language>
+
+			<Language id="ro">
+
+				<Channel id="publikatv" name="Publika TV (Moldova)" desc=""
+					lid="ro" cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://91.230.214.52/livepkgr"
+						url="http://tvtvtv.ru" file="file=livestream?adbe-live-event=liveevent" />
+				</Channel>
+
+			</Language>
+
+			<Language id="sr">
+
+				<Channel id="niskatv" name="Niska TV (Serbian)" desc="" lid="sr"
+					cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://92.60.231.48:1935/live"
+						url="http://ntv.rs/?q=node/1" file="file=livestream" />
+				</Channel>
+			</Language>
+
+			<Language id="et">
+
+				<Channel id="etvet" name="ETV (Estonia)" desc="" lid="et"
+					cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://193.40.133.138/live/"
+						url="http://otse.err.ee/etv" file="file=etv" />
+				</Channel>
+
+				<Channel id="etv2et" name="ETV 2 (Estonia)" desc="" lid="et"
+					cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://193.40.133.138/live/"
+						url="http://otse.err.ee/etv" file="file=etv2" />
+				</Channel>
+				
+				<Channel id="tallinnatv" name="Tallinna TV (Estonia)" desc="" lid="et" cid="101">
+					<Stream type="1" embedd="1"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://213.35.156.83/streamer/"
+						url="http://www.tallinnatv.eu" 
+						file="file=tlntv" />
+				</Channel>
+
+
+			</Language>
+
+			<Language id="uk">
+				<Channel id="kanal11" name="Kanal 11 (Ukraine)" desc="" lid="uk"
+					cid="101">
+					<Stream type="1" embedd="0"
+						player="http://nashgorod.pnz.ru/mediaplayer.swf" url="http://9-channel.com/online/11-j-kanal-dnepropetrovsk/"
+						file="file=rtmp://212.3.106.230/live" extra="id=livestream"
+						exclude="controlbar" />
+				</Channel>
+
+				<Channel id="kanal5ukraine" name="Kanal 5 (Ukraine)" desc=""
+					lid="uk" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" url="http://5.ua/live/"
+						file="file=5tv3" link="streamer=rtmpt://media.5.ua:8080/tv/5tv/" />
+				</Channel>
+
+				<Channel id="pershiyavtomobilniy" name="Pershiy Avtomobilniy (Ukraine)"
+					desc="" lid="uk" cid="101">
+					<Stream type="1" embedd="0" player="http://1autotv.ru/uppod/uppod.swf"
+						url="http://1autotv.ru/"
+						file="st=02AEEAG89Bv5bajYoAua5T42Qi63GnZ6WwbHsGnev0tDNBGn9sGhFYJ5ntu0c9BMrQ"
+						extra="pl=81AEEAG89v5fhaxaoAuaT4s2Qi63Gy9me0VT2UhTd05nbd0nZWwbRHsGnev0DNNBGn9sGhFJa5ntu0c9BMrF" />
+				</Channel>
+
+			</Language>
+
+			<Language id="fs">
+
+				<Channel id="euronewspersian" name="Euro News (Persian)"
+					desc="" lid="fs" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://persian.euronews.net/media/player_live_1_12.swf"
+						url="http://persian.euronews.net/news/streaming-live/" file="fluff=120f0175e7dc5c8f4801b44cf0b67fc0"
+						extra="autoplay=true&amp;lng=pe" />
+				</Channel>
+
+			</Language>
+
+			<Language id="pt">
+
+				<Channel id="euronewspt" name="Euro News (Portugal)" desc=""
+					lid="pt" cid="101">
+					<Stream type="1" embedd="0"
+						player="http://pt.euronews.net/media/player_live_1_12.swf" url="http://pt.euronews.net/noticias/en-direto/"
+						file="fluff=19348ea4e6ed852a7c76a91a15f13a7b" extra="autoplay=true&amp;lng=pt" />
+				</Channel>
+
+			</Language>
+
+
+			<Language id="fr">
+
+				<Channel id="rdicanada" name="RDI (Canada)" desc="" lid="fr"
+					cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://cp86675.live.edgefcs.net:443/live/"
+						url="http://www.radio-canada.ca/rdi/" file="file=RDI_TV@49158" />
+				</Channel>
+
+			</Language>
+			
+			<Language id="el">
+
+				<Channel id="shoptvel" name="Shop TV (Greece)" desc="" lid="el"
+					cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						link="streamer=rtmp://flashcloud.mediacdn.com/live"
+						url="http://www.shoptv.gr/" file="file=shoptv" />
+				</Channel>
+
+			</Language>
+
+			<Language id="bs">
+
+				<Channel id="osmtvbs" name="OSM TV (Bosnia)" desc="" lid="bs"
+					cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" link="streamer=rtmp://81.93.85.131:1935/live"
+						url="http://www.profreetv.com/index.php?content=watch" file="file=osm_tv" />
+				</Channel>
+				
+				<Channel id="aljazeerabalkans" name="Al Jazeera Balkans" desc="" lid="bs"
+					cid="101">
+					<Stream type="1" embedd="0"
+						player="http://player.longtailvideo.com/player5.7.swf" 
+						url="http://www.elahmad.com/tv/aljazeera_balkans.php"
+						link="streamer=rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live"
+						file="file=aljazeera_balkans_high" />
+				</Channel>
+
+
+			</Language>
+			
+		
+		</Country>
+	
+	</LiveTv>
+
+	<Radio>
+		<Language id="3">
+			<Channel id="1" name="Radio Joy Alukkas" desc="" lid="3">
+				<Stream type="0" link="http://91.121.122.94:8032" />
+			</Channel>
+			<Channel id="2" name="Kerala Radio.in" desc="" lid="3">
+				<Stream type="0" link="http://radio.hostonnet.com:8000/" />
+			</Channel>
+			<Channel id="3" name="Ganam Radio" desc="" lid="3">
+				<Stream type="0" link="http://159.253.145.180:7104/" />
+			</Channel>
+			<Channel id="4" name="City Malayalam" desc="" lid="3">
+				<Stream type="0" link="http://64.150.176.9:8310" />
+			</Channel>
+			<Channel id="5" name="Colors India Malayalam" desc="" lid="3">
+				<Stream type="0" link="http://76.10.222.237:8058" />
+			</Channel>
+			<Channel id="6" name="Ragam Radio" desc="" lid="3">
+				<Stream type="0" link="http://50.7.244.28:8018" />
+			</Channel>
+			<Channel id="7" name="Royal Daily" desc="" lid="3">
+				<Stream type="0" link="http://213.246.51.97:8016" />
+			</Channel>
+			<Channel id="8" name="Evergloz Music" desc="" lid="3">
+				<Stream type="0" link="http://204.45.6.58:8139" />
+			</Channel>
+			<Channel id="9" name="Radio Malabar Malayalam" desc="" lid="3">
+				<Stream type="0" link="http://64.150.176.9:8273" />
+			</Channel>
+			<Channel id="10" name="AirStar Radio Malayalam" desc="" lid="3">
+				<Stream type="0" link="http://123.237.208.240:8000" />
+			</Channel>
+			<Channel id="11" name="Spaceforradio.com - 24/7 Malayalam"
+				desc="" lid="3">
+				<Stream type="0" link="http://67.202.67.18:8222" />
+			</Channel>
+			<Channel id="13" name="ABBS Radio - The Ultimate Music" desc=""
+				lid="3">
+				<Stream type="0" link="http://76.191.96.169:8002" />
+			</Channel>
+		</Language>
+		<Language id="2">
+			<Channel id="1" name="Hindi Radio - Mera Sangeet" desc=""
+				lid="3">
+				<Stream type="0" link="http://208.80.55.219:10022" />
+			</Channel>
+			<Channel id="2" name="Dil Se Re - Non stop hindi romantic songs"
+				desc="" lid="3">
+				<Stream type="0" link="http://173.199.169.114:9014" />
+			</Channel>
+			<Channel id="3" name="Bollywood Music Radio" desc="" lid="3">
+				<Stream type="0" link="http://91.121.60.128:80" />
+			</Channel>
+			<Channel id="4" name="Hindi Bollywood Radio By Dj-Gaurav"
+				desc="" lid="3">
+				<Stream type="0" link="http://74.91.29.234:8035" />
+			</Channel>
+			<Channel id="5" name="www.filmyRadio.com ROMANTIC HINDI RADIO SONGS"
+				desc="" lid="3">
+				<Stream type="0" link="http://173.192.224.123:8270" />
+			</Channel>
+			<Channel id="6" name="SouthMania - Hindi - HQ" desc="" lid="3">
+				<Stream type="0" link="http://174.37.16.73:5694/sm" />
+			</Channel>
+			<Channel id="7" name="Hindi Classic, Melodies" desc="" lid="3">
+				<Stream type="0" link="http://59.176.38.188:8000" />
+			</Channel>
+			<Channel id="8" name="Hindi Radio - Sada Bahar Music" desc=""
+				lid="3">
+				<Stream type="0" link="http://173.192.224.123:8512" />
+			</Channel>
+			<Channel id="9" name="Hindi Music Radio for Mobile" desc=""
+				lid="3">
+				<Stream type="0" link="http://79.115.225.229:7020" />
+			</Channel>
+			<Channel id="10" name="Radio Veve Hindi" desc="" lid="3">
+				<Stream type="0" link="http://46.102.252.60:8072" />
+			</Channel>
+			<Channel id="11" name="Hindi Radio-Radio Chili" desc="" lid="3">
+				<Stream type="0" link="http://208.43.81.168:8777" />
+			</Channel>
+			<Channel id="12" name="Royaldaily.com -  Hindi" desc="" lid="3">
+				<Stream type="0" link="http://213.246.51.97:8024" />
+			</Channel>
+			<Channel id="13" name="Simarjotfm Hindi Music" desc="" lid="3">
+				<Stream type="0" link="http://77.86.203.20:8000" />
+			</Channel>
+			<Channel id="14" name="Hindi Desi Bollywood Evergreen Hits"
+				desc="" lid="3">
+				<Stream type="0" link="http://199.16.186.36:8419" />
+			</Channel>
+			<Channel id="15" name="Radio Gabbar - Hindi Bollywood" desc=""
+				lid="3">
+				<Stream type="0" link="http://199.19.106.253:9992" />
+			</Channel>
+			<Channel id="16" name=" Planet Radio City Hindi Radio" desc=""
+				lid="3">
+				<Stream type="0" link="http://199.19.106.253:9992" />
+			</Channel>
+
+		</Language>
+
+		<Language id="4">
+			<Channel id="1" name="Tamil Star FM" desc="" lid="3">
+				<Stream type="0" link="http://76.73.107.130:8020" />
+			</Channel>
+			<Channel id="2" name="Tamilnila FM" desc="" lid="3">
+				<Stream type="0" link="http://174.123.20.132:8010" />
+			</Channel>
+			<Channel id="3" name="Isai Amudham" desc="" lid="3">
+				<Stream type="0" link="http://68.168.98.187:20725" />
+			</Channel>
+			<Channel id="4" name="Deccan Radio - 24x7" desc="" lid="3">
+				<Stream type="0" link="http://69.162.106.5:8300" />
+			</Channel>
+			<Channel id="5" name="Ungal Radio" desc="" lid="3">
+				<Stream type="0" link="http://69.175.20.66:8435" />
+			</Channel>
+			<Channel id="6" name="Thuthi FM" desc="" lid="3">
+				<Stream type="0" link="http://87.117.228.59:8632" />
+			</Channel>
+			<Channel id="7" name="TSR.LIVE" desc="" lid="3">
+				<Stream type="0" link="http://67.159.5.57:9152" />
+			</Channel>
+			<Channel id="8" name="Mudhal Radio" desc="" lid="3">
+				<Stream type="0" link="http://174.142.192.209:8174" />
+			</Channel>
+			<Channel id="9" name="gtbc.fm" desc="" lid="3">
+				<Stream type="0" link="http://38.96.148.18:6150" />
+			</Channel>
+			<Channel id="10" name="TamilaruviFM Live From Norway" desc=""
+				lid="3">
+				<Stream type="0" link="http://66.90.103.189:8852" />
+			</Channel>
+			<Channel id="11" name="A9RADIO" desc="" lid="3">
+				<Stream type="0" link="http://173.193.205.96:9000" />
+			</Channel>
+			<Channel id="12" name="The sound of music :. www.isaiyaruvi.com"
+				desc="" lid="3">
+				<Stream type="0" link="http://184.82.87.122:8910" />
+			</Channel>
+			<Channel id="13" name="Kalasam.com" desc="" lid="3">
+				<Stream type="0" link="http://173.192.207.51:8084" />
+			</Channel>
+			<Channel id="14" name="Lankasri FM" desc="" lid="3">
+				<Stream type="0" link="http://206.217.217.124:80" />
+			</Channel>
+			<Channel id="15" name="Onex FM - The No1 Tamil Radio In Mauritius"
+				desc="" lid="3">
+				<Stream type="0" link="http://109.230.232.53:9998" />
+			</Channel>
+			<Channel id="17" name="Isai FM Best Tamil Song Malaysia"
+				desc="" lid="3">
+				<Stream type="0" link="http://96.44.147.34:7686" />
+			</Channel>
+			<Channel id="18" name="TamilKuyilRadio.com" desc="" lid="3">
+				<Stream type="0" link="http://173.193.219.163:8095" />
+			</Channel>
+			<Channel id="19" name="TamilCNN FM" desc="" lid="3">
+				<Stream type="0" link="http://173.192.48.97:8422" />
+			</Channel>
+			<Channel id="20" name="Australian Tamil Broadcasting Corporation"
+				desc="" lid="3">
+				<Stream type="0" link="http://209.212.144.156:792" />
+			</Channel>
+			<Channel id="21" name="Jey FM -  Tamil online Radio" desc=""
+				lid="3">
+				<Stream type="0" link="http://178.159.0.80:7226" />
+			</Channel>
+			<Channel id="22" name="Tamil Sweet FM" desc="" lid="3">
+				<Stream type="0" link="http://99.198.112.59:8200" />
+			</Channel>
+			<Channel id="23" name="Retham FM - Online Tamil Radio" desc=""
+				lid="3">
+				<Stream type="0" link="http://173.192.224.123:8514" />
+			</Channel>
+			<Channel id="24" name="Tamil MelIsai" desc="" lid="3">
+				<Stream type="0" link="http://50.7.241.10:8041" />
+			</Channel>
+			<Channel id="25" name="TRT TAMIL OLI:FIRST TAMIL RADIO IN EUROPE"
+				desc="" lid="3">
+				<Stream type="0" link="http://88.191.88.135:8024" />
+			</Channel>
+			<Channel id="26" name="London tamil radio" desc="" lid="3">
+				<Stream type="0" link="http://184.107.17.34:8106" />
+			</Channel>
+			<Channel id="27" name="Radiospathy Tamil online Radio" desc=""
+				lid="3">
+				<Stream type="0" link="http://184.107.17.34:8156" />
+			</Channel>
+			<Channel id="28" name="Maanikkam - Tamil Radio" desc="" lid="3">
+				<Stream type="0" link="http://85.17.139.168:8002" />
+			</Channel>
+			<Channel id="29" name="Royaldaily.com -  Tamil" desc="" lid="3">
+				<Stream type="0" link="http://213.246.51.97:8026" />
+			</Channel>
+			<Channel id="30" name="Thamizhamutham Radio - Tamil" desc=""
+				lid="3">
+				<Stream type="0" link="[http://178.159.0.80:7188" />
+			</Channel>
+			<Channel id="31" name="Tamil Sri FM" desc="" lid="3">
+				<Stream type="0" link="http://50.7.245.130:8237" />
+			</Channel>
+			<Channel id="32" name="Vanavilfm Tamil Radio" desc="" lid="3">
+				<Stream type="0" link="http://178.250.55.110:8000" />
+			</Channel>
+			<Channel id="33" name="Global Tamil Radio" desc="" lid="3">
+				<Stream type="0" link="http://67.212.189.10:8024" />
+			</Channel>
+			<Channel id="34" name="NJ TAMIL Radio" desc="" lid="3">
+				<Stream type="0" link="http://72.82.228.139:8002" />
+			</Channel>
+
+
+		</Language>
+	</Radio>
+
+</ProgramInfo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DreamTVActivity!</string>
+    <string name="app_name">DreamTV</string>
+    <string name="appTitle">Dream TV</string>
+    <string name="ok">Ok</string>
+
+</resources>

@@ -1,0 +1,60 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutControlPanelBottomMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom" 
+        android:orientation="vertical"
+        android:background="#644B4B4B"
+         >
+
+      
+
+        <LinearLayout
+            android:id="@+id/layoutSeekbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:weightSum="10"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="8dip"
+             >
+
+            <TextView
+                android:id="@+id/textViewCurrentPosition"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="00:00:46"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <com.DreamTV.SeekBarEx
+                android:id="@+id/seekBarExPlay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_weight="8"
+                 android:layout_marginLeft="4dip"
+                 android:layout_marginRight="4dip" />
+            
+            <TextView
+                android:id="@+id/textViewTotalDuration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                android:text="01:20:34"
+                 android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        
+          <LinearLayout
+            android:id="@+id/linearLayoutControlPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+            
+              
+        </LinearLayout>
+
+    </LinearLayout>
